@@ -17,6 +17,7 @@ public class ReverseList {
             cur.next=pre;
             pre=cur;
             cur=next;
+            //这个判断不要忘了
             if(next!=null){
                 next=next.next;
             }
