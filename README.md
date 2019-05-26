@@ -2,6 +2,171 @@
 
 
 
+## 第一章. 数组和队列
+
+### 1. 求滑动窗口中对应的最大值
+
+采用双端队列，在滑动过程中保存最大值和候选最大值，当最大值已经超出窗口范围时，从队列头部出队，当新遍历的值比当前值大时，从队尾进行更新
+
+这个方法还可以用在别的问题中，如求滑动窗口的最大值和最小值之差的最大值，用两个双端队列分别记录每个窗口的最大值和最小值
+
+```java
+public int[] getMax(int[] nums, int w){
+    if(nums==null||w<1||nums.length<w){
+        return null;
+    }
+    int index=0;   //记录结果集合中的下标
+    int[] res=new int[nums.length-w+1];
+    //双端队列，队列头部表示当前最大值
+    //从尾部进入的元素有可能作为下一个头部元素，因此进行比较
+    Deque<Integer> deque=new LinkedList<>();
+    for(int i=0;i<nums.length;i++){
+        while(!deque.isEmpty()&&nums[deque.peekLast()]<=nums[i]){
+            deque.pollLast();
+        }
+        deque.addLast(i);
+        //如果此时的头部元素已经过期，应该弹出去，由下一个候补元素做头元素
+        if(deque.peekFirst()==i-w){
+            deque.pollFirst();
+        }
+        //当遍历到出现窗口时进行结果记录
+        if(i>=w-1){
+            res[index++]=nums[deque.peekFirst()];
+        }
+    }
+    return res;
+}
+```
+
+### 2. 求01矩阵中1组成的矩形的最大值
+
+这个问题是求直方图中最大矩形的变形，要先用一个二维矩阵记录每层的对应位置1的高度，然后对每一层进行矩形求解，得到最大值，时间复杂度和空间复杂度都是O(NxM)
+
+```java
+public static int getMaxArea(int[][] arr){
+    int height=arr.length;
+    int length=arr[0].length;
+    int[][] lens=new int[height][length];//记录每行每个位置的1的高度
+    for(int i=0;i<height;i++){
+        for(int j=0;j<length;j++){
+            int h=i;
+            while(h>=0&&arr[h--][j]==1){
+                lens[i][j]++;
+            }
+        }
+    }
+    int area=0;
+    int maxA=0;
+    Stack<Integer> stack=new Stack<>();
+    for(int i=0;i<height;i++){
+        for(int j=0;j<length;j++){
+            if(stack.isEmpty()||lens[i][stack.peek()]<=lens[i][j]){
+                stack.push(j);
+            }else{
+                while(!stack.isEmpty()&&lens[i][stack.peek()]>lens[i][j]){
+                    int index=stack.pop();
+                    if(stack.isEmpty()){
+                        area=lens[i][index]*(j-0);   //如果栈空，表示一直可以计算到开头
+                    }else{
+                        area=lens[i][index]*(j-stack.peek());//用栈记录下标，维护递增高度
+                    }
+                    maxA=Math.max(maxA,area);
+                }
+                stack.push(j);//只有<=的才被压入
+            }
+        }
+        while(!stack.isEmpty()){//栈中还有数据未计算
+            int index=stack.pop();     //计算过的位置弹出去
+            if(stack.isEmpty()){
+                area=lens[i][index]*(length-0); 
+            }else{
+                area=lens[i][index]*(length-stack.peek());
+            }
+            maxA=Math.max(maxA,area);
+        }
+    }
+    return maxA;
+}
+```
+
+### 3. 大顶堆的生成
+
+一般用数组的大顶堆生成是比较简单的，采用递归的方法来生成，采用下沉的方式不断插入新节点，可以实现时间复杂度O(n)，如果是上浮操作，复杂度为O(nlogn)
+
+基于节点的大顶堆生成，需要借助一些外部存储空间记录每个节点之间的关系
+
+方法是：在节点数组中，用哈希表记录每个节点左边和右边第一个大于自己的节点，这两个节点中值较小的选为父节点
+
+```java
+public static Node getMaxTree(int[] arr) {
+   Node[] nArr = new Node[arr.length];
+   for (int i = 0; i != arr.length; i++) {
+      nArr[i] = new Node(arr[i]);
+   }
+   Stack<Node> stack = new Stack<Node>();
+   HashMap<Node, Node> lBigMap = new HashMap<Node, Node>();
+   HashMap<Node, Node> rBigMap = new HashMap<Node, Node>();
+   for (int i = 0; i != nArr.length; i++) {
+      Node curNode = nArr[i];
+      while ((!stack.isEmpty()) && stack.peek().value < curNode.value) {
+         popStackSetMap(stack, lBigMap);
+      }
+      stack.push(curNode);
+   }
+   while (!stack.isEmpty()) {
+      popStackSetMap(stack, lBigMap);
+   }
+   for (int i = nArr.length - 1; i != -1; i--) {
+      Node curNode = nArr[i];
+      while ((!stack.isEmpty()) && stack.peek().value < curNode.value) {
+         popStackSetMap(stack, rBigMap);
+      }
+      stack.push(curNode);
+   }
+   while (!stack.isEmpty()) {
+      popStackSetMap(stack, rBigMap);
+   }
+   Node head = null;
+   for (int i = 0; i != nArr.length; i++) {
+      Node curNode = nArr[i];
+      Node left = lBigMap.get(curNode);
+      Node right = rBigMap.get(curNode);
+      if (left == null && right == null) {
+         head = curNode;
+      } else if (left == null) {
+         if (right.left == null) {
+            right.left = curNode;
+         } else {
+            right.right = curNode;
+         }
+      } else if (right == null) {
+         if (left.left == null) {
+            left.left = curNode;
+         } else {
+            left.right = curNode;
+         }
+      } else {
+         Node parent = left.value < right.value ? left : right;
+         if (parent.left == null) {
+            parent.left = curNode;
+         } else {
+            parent.right = curNode;
+         }
+      }
+   }
+   return head;
+}
+
+public static void popStackSetMap(Stack<Node> stack, HashMap<Node, Node> map) {
+   Node popNode = stack.pop();
+   if (stack.isEmpty()) {
+      map.put(popNode, null);
+   } else {
+      map.put(popNode, stack.peek());//记录每个节点左边界和右边界
+   }
+}
+```
+
 
 
 ## 第二章. 链表问题
@@ -181,7 +346,7 @@ public static Node reversPart(Node head,int from, int to){
 如果没有删除，则编号之间对应的关系为
 $$
 B=(A-1)\%i+1\\
-old=(new+s-1)\%i+1
+old=(new+s-1)\%i+1
 $$
 从而有
 $$
@@ -663,3 +828,428 @@ public static Node deleteRep(Node head){
 }
 ```
 
+## 第三章 二叉树
+
+### 1. 二叉树的前序中序后序遍历方法，递归非递归和Morris方法
+
+#### 递归遍历
+
+很简单，时间复杂度为O(N)，空间复杂度为递归深度O(N)
+
+```java
+public void preOrderRecur(TreeNode root){
+    if(root==null){
+        return;
+    }
+    System.out.println(root.val);
+    preOrderRecur(root.left);
+    preOrderRecur(root.right);
+}
+public void inOrderRecur(TreeNode root){
+    if(root==null){
+        return;
+    }
+    preOrderRecur(root.left);
+    System.out.println(root.val);
+    preOrderRecur(root.right);
+}
+public void postOrderRecur(TreeNode root){
+    if(root==null){
+        return;
+    }
+    preOrderRecur(root.left);
+    preOrderRecur(root.right);
+    System.out.println(root.val);
+}
+```
+
+#### 非递归遍历
+
+借助栈来保存节点信息，时间复杂度O(N)，空间复杂度O(N)，为栈空间所占用空间
+
+```java
+//前序遍历
+public void preOrderUnRecur(TreeNode root){
+    if(root==null){
+        return;
+    }
+    Stack<TreeNode> stack=new Stack<>();
+    stack.push(root);
+    while(!stack.isEmpty()){
+        TreeNode node=stack.pop();
+        System.out.println(node.val);
+        if(node.right!=null){
+            stack.push(node.right);//先压入右节点
+        }
+        if(node.left!=null){
+            stack.push(node.left);
+        }
+    }
+}
+//中序遍历
+public void inOrderUnRecur(TreeNode root){
+    if(root==null){
+        return;
+    }
+    Stack<TreeNode> stack=new Stack<>();
+    while(stack!=null||root!=null){
+        if(root!=null){
+            stack.push(root);
+            root=root.left;
+        }else{
+            root=stack.pop();
+            System.out.println(root.val);
+            root=root.right;
+        }
+    }
+}
+```
+
+后序遍历稍微复杂一些，有两种实现方式
+
+```java
+//后序遍历
+//方法1是用一个栈实现中右左的遍历，用另一个栈保存起来，再逆序输出
+public void postOrderUnRecur1(TreeNode root){
+    if(root==null){
+        return;
+    }
+    Stack<TreeNode> stack=new Stack<>();
+    Stack<TreeNode> stack1=new Stack<>();
+    stack.push(root);
+    while(!stack.isEmpty()){
+        TreeNode node=stack.pop();
+        stack1.push(node);
+        if(node.left!=null){
+            stack.push(node.left);
+        }
+        if(node.right!=null){
+            stack.push(node.right);
+        }
+    }
+    while(!stack1.isEmpty()){
+        System.out.println(stack1.pop().val);
+    }
+}
+//方法2 每次记录栈顶元素和上次访问元素
+public void postOrderUnRecur2(TreeNode root){
+    if(root==null){
+        return;
+    }
+    Stack<TreeNode> stack=new Stack<>();
+    stack.push(root);
+    TreeNode c=null;   //记录栈顶元素，表示下一个要访问的对象
+    while(!stack.isEmpty()){
+        c=stack.peek();
+        if(c.left!=null&&root!=c.left&&root!=c.right){  //如果左右子树都没访问过
+            stack.push(c.left);
+        }else if(c.right!=null&&root!=c.right){//如果左子树访问过，右子树没访问过
+            stack.push(c.right);
+        }else{
+            System.out.println(stack.pop().val);  //如果子树都访问过了
+            root=c;    //root表示上一次弹出并访问过的元素
+        }
+    }
+}
+```
+
+#### Morris方法
+
+通过调整当前节点左子树的最右节点的右指针，指向当前节点，从而获得从下往上的一个途径，便于在树形结构中遍历。
+
+前序和中序的过程是类似的，只是打印的时机不同
+
+前序是在第一次进入cur节点左子树进行指针调整的时候，在$cur=cur.left$之前打印cur的值，即首先访问了根节点，以后$cur=cur.left$也会首先打印cur节点
+
+中序是在cur节点左子树全都调整完之后，根据$cur=cur.left$，此时cur实际上是最左边的节点，在$cur=cur.right$之前，会回到根节点，从根节点恢复左边指针后，会进入根节点的右节点，整个顺序是左根右
+
+后序是在恢复指针的时候，此时是最后一次在cur节点停留，倒序打印以cur.left为头的右边界链，相当于斜着从左往右斜着打印所有节点，所以正好利用左子树最右节点这个位置。
+
+```java
+   //不需要借助栈结构完成中序遍历
+    //时间复杂度O(N) 空间复杂度O(1)
+public void morrisIn(TreeNode root){
+        if(root==null){
+            return ;
+        }
+         TreeNode cur1=root;
+         TreeNode cur2=null;
+         while(cur1!=null){
+             cur2=cur1.left;    //进入左子树
+             if(cur2!=null){
+                 while(cur2.right!=null&&cur2.right!=cur1){
+                     cur2=cur2.right;   //找到左子树最右边节点
+                 }
+                 if(cur2.right==null){//最右节点右指针为空
+                     cur2.right=cur1;   //让右指针指向cur1
+                     cur1=cur1.left;    //处理完cur1子树后，再往下到cur1的左子树重复上面过程
+                     continue;
+                 }else{                //如果不空闲，这次访问是利用了新指针回到了上层，恢复
+                     cur2.right=null;
+                 }
+             }
+             System.out.println(cur1.val);   //访问中间节点
+             cur1=cur1.right;   //访问右节点，回到上层节点
+         }
+}
+```
+
+```java
+//不需要借助栈结构完成先序遍历
+public void morrisPre(TreeNode root){
+    if(root==null){
+        return ;
+    }
+    TreeNode cur1=root;
+    TreeNode cur2=null;
+    while(cur1!=null){
+        cur2=cur1.left;    //进入左子树
+        if(cur2!=null){
+            while(cur2.right!=null&&cur2.right!=cur1){
+                cur2=cur2.right;   //找到左子树最右边节点
+            }
+            if(cur2.right==null){//最右节点右指针为空
+                cur2.right=cur1;   //让右指针指向cur1
+                System.out.println(cur1.val);   //访问中间节点
+                cur1=cur1.left;    //处理完cur1子树后，再往下到cur1的左子树重复上面过程
+                continue;
+            }else{                //如果不空闲，这次访问是利用了新指针回到了上层，恢复
+                cur2.right=null;
+            }
+        }
+        cur1=cur1.right;   //访问右节点，回到上层节点
+    }
+}
+```
+
+```java
+public void postOrderUnRecur(TreeNode root){
+    if(root==null){
+        return ;
+    }
+    TreeNode cur1=root;
+    TreeNode cur2=null;
+    while(cur1!=null){
+        cur2=cur1.left;
+        if(cur2!=null){
+            while(cur2.right!=null&&cur2.right!=cur1){
+                cur2=cur2.right;
+            }
+            if(cur2.right==null){
+                cur2.right=cur1;
+                cur1=cur1.left;
+                continue;
+            }else{
+                cur2.right=null;
+                printEdge(cur1.left);//打印时机是指针调整的时候
+            }
+        }
+        cur1=cur1.right;
+    }
+    printEdge(root);//最后还要再打印整棵树的右边界
+}
+//倒序打印右边界节点，使结果是左右中
+public void printEdge(TreeNode node){
+    TreeNode node1=reverseTree(node);
+    TreeNode p=node1;
+    while(p!=null){
+        System.out.println(p.val);
+        p=p.right;
+    }
+    reverseTree(node1);
+}
+//翻转链表
+public TreeNode reverseTree(TreeNode node){
+    TreeNode cur=node;
+    TreeNode pre=null;
+    TreeNode next=null;
+    while(cur!=null){
+        next=cur.right;
+        cur.right=pre;
+        pre=cur;
+        cur=next;
+    }
+    return pre;
+}
+```
+
+### 2. 打印二叉树边界节点
+
+标准一
+
+1. 头节点为边界节点。
+
+2. 叶节点为边界节点。
+
+3. 如果节点在其所在的层中是最左或最右的，那么也是边界节点。
+
+标准二
+
+1. 头节点为边界节点。
+
+2. 叶节点为边界节点。
+
+3. 树左边界延伸下去的路径为边界节点。
+
+4. 树右边界延伸下去的路径为边界节点。
+
+对于一
+
+采用额外的存储空间来记录每一层的最左边和最右边的节点，相当于先序遍历时记录层数和当前层的左右节点数，由于先序遍历是根左右，所以每层最右边的节点在遍历过程中不断更新，再用先序遍历找到叶子节点。
+
+对于二
+
+先找到第一个左节点和右节点都不为空的节点，之前的节点都打印。
+
+对左节点打印左延伸和叶子结点，对右节点，打印叶子节点和右延伸。需要一个标志变量来保证某个节点不被打印时，以其为头结点的子树都不会被打印，除非是叶子节点
+
+```java
+//先序遍历，正序打印
+public static void printLeftEdge(Node h, boolean print) {
+   if (h == null) {
+      return;
+   }
+   if (print || (h.left == null && h.right == null)) {  //打印叶子节点或者边界节点
+      System.out.print(h.value + " ");
+   }
+   printLeftEdge(h.left, print);
+   printLeftEdge(h.right, print && h.left == null ? true : false);//非边界节点会置为false
+}
+//后序遍历，能形成一种倒序打印的效果
+public static void printRightEdge(Node h, boolean print) {
+   if (h == null) {
+      return;
+   }
+   printRightEdge(h.left, print && h.right == null ? true : false);
+   printRightEdge(h.right, print);
+   if (print || (h.left == null && h.right == null)) {
+      System.out.print(h.value + " ");
+   }
+}
+```
+
+ ==很多算法基于对二叉树的各种顺序的遍历，在遍历过程中进行一些操作，选择合适的时机进行一些输出。== 
+
+### 3. 直观打印二叉树
+
+把二叉树放倒打印，控制空格间距，并用一些符号来表示头结点关系，先打印右子树，再打印左子树，间隔与高度相关
+
+```java
+public void printTree(TreeNode root){
+    printT(root,0,"H",17);
+}
+public void printT(TreeNode node, int height, String h,int len){
+    if(node==null){
+        return;
+    }
+    printT(node.right,height+1,"v",len);
+    String val=h+node.val+h;
+    int valLen=val.length();
+    int sLen=(len-valLen)/2;
+    int tlen=len-valLen-sLen;
+    val=getSpace(sLen)+val+getSpace(tlen);
+    System.out.println(getSpace(height*len)+val);
+    printT(node.left,height+1,"^",len);
+}
+public String getSpace(int len){
+    StringBuilder sb=new StringBuilder();
+    while(len-->0){
+        sb.append(" ");
+    }
+    return sb.toString();
+}
+```
+
+###  4. 二叉树的序列化和反序列化
+
+- 先序遍历的方法实现序列化和反序列化
+
+序列化过程比较好做，反序列化时，按照中左右顺序来做，可以用一个结构把所有的字符串保存起来，左右之间自然地以#分割，所以可以用递归方法实现。
+
+```java
+public String serialize(TreeNode node){
+    if(node==null){
+        return "#";
+    }
+    String s=node.val+"!";
+    s=s+serialize(node.left);
+    s=s+serialize(node.right);
+    return s;
+}
+public TreeNode deSerialize(String s){
+    String[] ss=s.split("!");
+    Queue<String> queue=new LinkedList<>();//用一个结构存起来
+    for(int i=0;i<ss.length;i++){
+        queue.offer(ss[i]);
+    }
+    TreeNode node=deSerial(queue);
+    return node;
+}
+public TreeNode deSerial(Queue<String> queue){
+    String s=queue.poll();
+    if(s=="#"){
+        return null;
+    }
+    TreeNode head=new TreeNode(Integer.valueOf(s));
+    head.left=deSerial(queue);
+    head.right=deSerial(queue);
+    return head;
+}
+```
+
+- 用层次遍历实现序列化和反序列化
+
+层次遍历用到队列，保存上一层的数据。
+
+```java
+public String serialize1(TreeNode node){
+    if(node==null){
+        return "";
+    }
+    Queue<TreeNode> queue=new LinkedList<>();
+    queue.offer(node);
+    StringBuilder sb=new StringBuilder();
+    sb.append(node.val+"!");
+    while(!queue.isEmpty()){
+        TreeNode h=queue.poll();
+        if(h.left!=null){
+            queue.offer(h.left);
+            sb.append(h.left.val+"!");
+        }else{
+            sb.equals("#!");
+        }
+        if(h.right!=null){
+            queue.offer(h.right);
+            sb.append(h.right.val+"!");
+        }else{
+            sb.equals("#!");
+        }
+    }
+    return sb.toString();
+}
+public TreeNode deSerialize1(String s){
+    if(s==null||s.equals("")){
+        return null;
+    }
+    String[] ss=s.split("!");
+    Queue<TreeNode> queue=new LinkedList<>();
+    TreeNode head=new TreeNode(Integer.valueOf(ss[0]));
+    queue.offer(head);
+    int index=1;
+    while(!queue.isEmpty()){
+        TreeNode node=queue.poll();
+        if(!ss[index++].equals("#")){
+            TreeNode node1=new TreeNode(Integer.valueOf(ss[index-1]));
+            node.left=node1;
+            queue.offer(node1);
+
+        }
+        if(!ss[index++].equals("#")){
+            TreeNode node1=new TreeNode(Integer.valueOf(ss[index-1]));
+            node.right=node1;
+            queue.offer(node1);
+        }
+    }
+    return head;
+}
+```
