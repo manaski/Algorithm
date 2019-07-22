@@ -1,8 +1,5 @@
 package com.zuo.exercise_3_BinaryTree;
 
-import com.zuo.Excercise_2_LinkedList.ReverseList;
-import sun.reflect.generics.tree.Tree;
-
 import java.util.Stack;
 
 /**
@@ -136,7 +133,7 @@ public void morrisIn(TreeNode root){
                  }
              }
              System.out.println(cur1.val);   //访问中间节点
-             cur1=cur1.right;   //访问右节点，回到上层节点
+             cur1=cur1.right;   //访问右节点，回到上层节点，回到上一层的中间节点
          }
 }
     //不需要借助栈结构完成先序遍历

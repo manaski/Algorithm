@@ -1,5 +1,7 @@
 # 编程题目练习总结
 
+[TOC]
+
 
 
 ## 第一章. 数组和队列
@@ -867,6 +869,9 @@ public void postOrderRecur(TreeNode root){
 
 借助栈来保存节点信息，时间复杂度O(N)，空间复杂度O(N)，为栈空间所占用空间
 
+- 先序遍历，用栈将每个节点的子节点按照右左的顺序压入，这样访问时总是从左往右弹出
+- 中序遍历，用栈先将左边界的节点全压进去，当节点访问完之后进入右子节点
+
 ```java
 //前序遍历
 public void preOrderUnRecur(TreeNode root){
@@ -1251,5 +1256,693 @@ public TreeNode deSerialize1(String s){
         }
     }
     return head;
+}
+```
+
+### 5. 累加和为指定值的最长路径
+
+方法和求未排序数组中累加和为指定值的最长子数组的方法相同，这里用递归的前序遍历方法更合适，所以并不是递归不好。需要记录层数的时候，递归很有用。
+
+```java
+public int getMaxLengt(TreeNode node, int k){
+    if(node==null){
+        return 0;
+    }
+    Map<Integer,Integer> map=new HashMap<>();
+    map.put(0,0);//这个初始设置很重要
+    int len=0;
+    int sum=0;
+    int level=0;
+    int res=preOrder(node,level+1,k,sum,len,map);
+    return res;
+}
+
+public int preOrder(TreeNode node,int level,int k, int sum,int len,Map<Integer,Integer> map){
+    if(node==null){
+        return len;
+    }
+    int val=node.val;
+    sum+=val;
+    if(map.containsKey(sum-k)){
+        int lev=map.get(sum-k);
+        len= Math.max(len,level-lev);
+    }
+    if(!map.containsKey(sum)){
+        map.put(sum,level);
+    }
+    int left=preOrder(node.left,level+1,k,sum,len,map);  //递归方法
+    int right=preOrder(node.right,level+1,k,sum,len,map);
+    return Math.max(left,right);
+}
+```
+
+### 6. 求最大搜索二叉树结构
+
+以节点node为头的树中，最大的搜索二叉子树只可能来自以下两种情况。
+
+第一种：如果来自node左子树上的最大搜索二叉子树是以node.left为头的；来自node右子树上的最大搜索二叉子树是以node.right为头的；node左子树上的最大搜索二叉子树的最大值小于node.value；node右子树上的最大搜索二叉子树的最小值大于node.value，那么以节点node为头的整棵树都是搜索二叉树。
+
+第二种：如果不满足第一种情况，说明以节点node为头的树整体不能连成搜索二叉树。这种情况下，以node为头的树上的最大搜索二叉子树是来自node的左子树上的最大搜索二叉子树和来自node的右子树上的最大搜索二叉子树之间，节点数较多的那个。
+
+```java
+public TreeNode getMaxTree(TreeNode node){
+    if(node==null){
+        return null;
+    }
+    int[] record=new int[3];//记录全局变量，包括两个子树的最大值最小值，子树节点数
+    return postOrder(node,record);
+}
+public TreeNode postOrder(TreeNode node, int[] record){
+    if(node==null){
+        record[0]=0;
+        record[1]= Integer.MAX_VALUE;
+        record[2]=Integer.MIN_VALUE;
+        return null;
+    }
+    TreeNode lBST=postOrder(node.left,record);//左子树判断
+    int lsize=record[0];
+    int lmin=record[1];
+    int lmax=record[2];
+    TreeNode rBST=postOrder(node.right,record);//右子树判断
+    int rsize=record[0];
+    int rmin=record[1];
+    int rmax=record[2];
+    record[1]= Math.min(lmin,node.val); //若满足搜索树结构，这个是正确的，不满足时，这个更新并不会发挥作用
+    record[2]= Math.max(node.val,rmax);
+    //当前节点可以作为搜索树节点的条件
+    if(lBST==node.left&&rBST==node.right&&node.val>lmax&&node.val<rmin){
+        record[0]=lsize+rsize+1;
+        return node;
+    }
+    //根据节点数来判断
+    record[0]=Math.max(lsize,rsize);
+    return lsize>rsize?lBST:rBST;
+}
+```
+
+### 7. 最大的搜索二叉树结构
+
+**方法1：** 时间复杂度O(N^2)，对每个节点都查找一下，以该节点为头结点所能得到的最大搜索二叉树结构。对每个节点，通过递归子节点，根据搜索树的规则进行查找，从头部开始递归找如果最后能够找到子节点，则该节点可以加入到搜索树的结构中，然后继续查找这个节点的子节点是否能找到。这个过程中，头部节点不变，最后返回节点个数。由于每个节点都要找一遍其子孙节点，所以是N^2.
+
+```java
+public static int bstTopoSize1(Node head) {
+   if (head == null) {
+      return 0;
+   }
+   int max = maxTopo(head, head);
+   max = Math.max(bstTopoSize1(head.left), max);
+   max = Math.max(bstTopoSize1(head.right), max);
+   return max;
+}
+
+public static int maxTopo(Node h, Node n) {
+   if (h != null && n != null && isBSTNode(h, n, n.value)) {
+      return maxTopo(h, n.left) + maxTopo(h, n.right) + 1;//如果当前节点满足，则查找子节点
+   }
+   return 0;
+}
+//以h为头结点，查找n节点，如果能够按照搜索树规则找到，说明满足条件
+public static boolean isBSTNode(Node h, Node n, int value) {
+   if (h == null) {
+      return false;
+   }
+   if (h == n) {
+      return true;
+   }
+   return isBSTNode(h.value > value ? h.left : h.right, n, value);
+}
+```
+
+**方法2：** 时间复杂度O(N)，最差O(NlogN)
+
+通过每个节点记录贡献度，从而可以快速得到某个头结点的贡献度，然后按照搜索树的规则进行判断，去掉不满足的节点，调整贡献度，最终得到的就是结果。
+
+```java
+//记录结构
+public static class Record {
+   public int l;
+   public int r;
+
+   public Record(int left, int right) {
+      this.l = left;
+      this.r = right;
+   }
+}
+public static int bstTopoSize2(Node head) {
+   Map<Node, Record> map = new HashMap<Node, Record>();//map
+   return posOrder(head, map);
+}
+//后序遍历，先得到左右，然后得到头节点的贡献值
+//由于是递归的，假设当前节点的左右是已经处理过的子树
+public static int posOrder(Node h, Map<Node, Record> map) {
+   if (h == null) {
+      return 0;
+   }
+   int ls = posOrder(h.left, map);
+   int rs = posOrder(h.right, map);
+   modifyMap(h.left, h.value, map, true);//需要修正的左右节点的记录
+   modifyMap(h.right, h.value, map, false);
+   Record lr = map.get(h.left);//没有记录，可能是没有遍历过或者因为不满足条件被删除了
+   Record rr = map.get(h.right);
+   int lbst = lr == null ? 0 : lr.l + lr.r + 1;
+   int rbst = rr == null ? 0 : rr.l + rr.r + 1;  //得到本节点的记录值
+   map.put(h, new Record(lbst, rbst));//添加记录
+   return Math.max(lbst + rbst + 1, Math.max(ls, rs));//返回最大值，算本节点，不算本节点
+}
+public static int modifyMap(Node n, int v, Map<Node, Record> m, boolean s) {
+   if (n == null || (!m.containsKey(n))) {
+      return 0;
+   }
+   Record r = m.get(n);
+   if ((s && n.value > v) || ((!s) && n.value < v)) {
+      m.remove(n);      //从map中去掉，则子树都被去掉
+      return r.l + r.r + 1;//如果当前节点不满足左小右大的规则，则所有记录都要去掉
+   } else {
+      int minus = modifyMap(s ? n.right : n.left, v, m, s);//左子树遍历右边界，右子树遍历左边界
+      if (s) {
+         r.r = r.r - minus;//更新节点的记录值，如果minus不为0则向上层递归不断进行更新
+      } else {
+         r.l = r.l - minus;
+      }
+      m.put(n, r);//更新
+      return minus;
+   }
+}
+```
+
+### 8. 按层打印和Z字形打印二叉树
+
+按层打印就是按层遍历的方法，用一个变量记录每一层的宽度控制换行。
+
+按z字形打印，需要在不同的层进行不同的顺序操作，用双端队列可以从头部和尾部进行操作，从而实现这个过程。
+
+```java
+public static void printBylevel(TreeNode node){
+    if(node==null){
+        return;
+    }
+    Queue<TreeNode> queue=new LinkedList<>();
+    queue.offer(node);
+    int sum=1;
+    int level=1;
+    System.out.print("level"+level+": ");
+    while(!queue.isEmpty()){
+        TreeNode p=queue.poll();
+        System.out.print(p.val+" ");
+        sum--;
+        if(p.left!=null){
+            queue.offer(p.left);
+        }
+        if(p.right!=null){
+            queue.offer(p.right);
+        }
+        if(sum==0){
+            sum=queue.size();
+            if(sum>0){      //控制换行的操作
+                System.out.println();
+                level++;
+                System.out.print("level"+level+": ");
+            }
+        }
+    }
+}
+
+public static void printZ(TreeNode node){
+    if(node==null){
+        return;
+    }
+    int level=1;
+    int sum=1;
+    LinkedList<TreeNode> list=new LinkedList<>();//双端队列
+    list.push(node);
+    System.out.print("level"+level+": ");
+    while(!list.isEmpty()){
+       if(level%2==1){
+         TreeNode p=list.pollLast();
+           System.out.print(p.val+" ");
+         if(p.left!=null){
+             list.offerFirst(p.left);
+         }
+           if(p.right!=null){
+               list.offerFirst(p.right);
+           }
+       }else{//上面和下面的过程是相反的
+           TreeNode p=list.pollFirst();
+           System.out.print(p.val+" ");
+           if(p.right!=null){
+               list.offerLast(p.right);
+           }
+           if(p.left!=null){
+               list.offerLast(p.left);
+           }
+       }
+       sum--;
+        if(sum==0){
+            sum=list.size();
+            if(sum>0){
+                System.out.println();
+                level++;
+                System.out.print("level"+level+": ");
+            }
+        }
+    }
+}
+```
+
+###  9. 搜索二叉树查找交换了的两个节点
+
+由于搜索二叉树是有序的，通过==中序遍历==可以得到一个有序的序列，如果交换了两个值，则序列不再有序，找到出现降序的位置，第一次降序较大的值和第二次降序较小的值是两个交换的节点。如果只有一次降序则降序位置的两个值互相交换。很多问题结合二叉树的遍历和搜索二叉树的特点可以得到一些解法，要多思考。
+
+交换两个节点，需要获得两个节点各自的父节点和左右子节点，然后交换两个节点的环境。但是因为两个节点可能存在头结点，可能是相邻的关系，可能不相邻，所以要划分很多种情况来讨论。
+
+- 两个节点有一个头结点，谁是头结点？
+- 两个节点相邻，谁是谁的头结点？
+- 两个节点不相邻，两个节点分别是左还是右边节点
+
+考虑不同的情况，进行指针交换时才能不出错。
+
+```java
+public static Node[] getTwoErrNodes(Node head) {
+   Node[] errs = new Node[2];
+   if (head == null) {
+      return errs;
+   }
+   Stack<Node> stack = new Stack<Node>();
+   Node pre = null;  //记录前一个节点
+   while (!stack.isEmpty() || head != null) {//中序遍历过程
+      if (head != null) {
+         stack.push(head);
+         head = head.left;
+      } else {
+         head = stack.pop();
+         if (pre != null && pre.value > head.value) {//如果出现递减变化
+            errs[0] = errs[0] == null ? pre : errs[0];
+            errs[1] = head;
+         }
+         pre = head;
+         head = head.right;
+      }
+   }
+   return errs;
+}
+```
+
+```java
+public static Node[] getTwoErrParents(Node head, Node e1, Node e2) {
+   Node[] parents = new Node[2];
+   if (head == null) {
+      return parents;
+   }
+   Stack<Node> stack = new Stack<Node>();
+   while (!stack.isEmpty() || head != null) {
+      if (head != null) {
+         stack.push(head);
+         head = head.left;
+      } else {
+         head = stack.pop();
+         if (head.left == e1 || head.right == e1) {
+            parents[0] = head;    //获得父节点
+         }
+         if (head.left == e2 || head.right == e2) {
+            parents[1] = head;
+         }
+         head = head.right;
+      }
+   }
+   return parents;
+}
+
+public static Node recoverTree(Node head) {
+   Node[] errs = getTwoErrNodes(head);
+   Node[] parents = getTwoErrParents(head, errs[0], errs[1]);
+   Node e1 = errs[0];
+   Node e1P = parents[0];
+   Node e1L = e1.left;
+   Node e1R = e1.right;
+   Node e2 = errs[1];
+   Node e2P = parents[1];
+   Node e2L = e2.left;
+   Node e2R = e2.right;
+   if (e1 == head) {
+      if (e1 == e2P) { // 情况2
+         e1.left = e2L;
+         e1.right = e2R;
+         e2.right = e1;
+         e2.left = e1L;
+      } else if (e2P.left == e2) { // 情况3
+         e2P.left = e1;
+         e2.left = e1L;
+         e2.right = e1R;
+         e1.left = e2L;
+         e1.right = e2R;
+      } else { // 情况4
+         e2P.right = e1;
+         e2.left = e1L;
+         e2.right = e1R;
+         e1.left = e2L;
+         e1.right = e2R;
+      }
+      head = e2;
+   } else if (e2 == head) {
+      if (e2 == e1P) { // 情况5
+         e2.left = e1L;
+         e2.right = e1R;
+         e1.left = e2;
+         e1.right = e2R;
+      } else if (e1P.left == e1) { // 情况6
+         e1P.left = e2;
+         e1.left = e2L;
+         e1.right = e2R;
+         e2.left = e1L;
+         e2.right = e1R;
+      } else { // 情况7
+         e1P.right = e2;
+         e1.left = e2L;
+         e1.right = e2R;
+         e2.left = e1L;
+         e2.right = e1R;
+      }
+      head = e1;
+   } else {
+      if (e1 == e2P) {
+         if (e1P.left == e1) { // 情况8
+            e1P.left = e2;
+            e1.left = e2L;
+            e1.right = e2R;
+            e2.left = e1L;
+            e2.right = e1;
+         } else { // 情况9
+            e1P.right = e2;
+            e1.left = e2L;
+            e1.right = e2R;
+            e2.left = e1L;
+            e2.right = e1;
+         }
+      } else if (e2 == e1P) {
+         if (e2P.left == e2) { // 情况10
+            e2P.left = e1;
+            e2.left = e1L;
+            e2.right = e1R;
+            e1.left = e2;
+            e1.right = e2R;
+         } else { // 情况11
+            e2P.right = e1;
+            e2.left = e1L;
+            e2.right = e1R;
+            e1.left = e2;
+            e1.right = e2R;
+         }
+      } else {
+         if (e1P.left == e1) {
+            if (e2P.left == e2) { // 情况12
+               e1.left = e2L;
+               e1.right = e2R;
+               e2.left = e1L;
+               e2.right = e1R;
+               e1P.left = e2;
+               e2P.left = e1;
+            } else { // 情况13
+               e1.left = e2L;
+               e1.right = e2R;
+               e2.left = e1L;
+               e2.right = e1R;
+               e1P.left = e2;
+               e2P.right = e1;
+            }
+         } else {
+            if (e2P.left == e2) { // 情况14
+               e1.left = e2L;
+               e1.right = e2R;
+               e2.left = e1L;
+               e2.right = e1R;
+               e1P.right = e2;
+               e2P.left = e1;
+            } else { // 情况1
+               e1.left = e2L;
+               e1.right = e2R;
+               e2.left = e1L;
+               e2.right = e1R;
+               e1P.right = e2;
+               e2P.right = e1;
+            }
+         }
+      }
+   }
+   return head;
+}
+```
+
+### 10. 判断二叉树是否是排序二叉树
+
+主要解决方法：
+
+考虑把这些问题都转化为可以通过二叉树遍历而获得的一些性质来判断。
+
+对于排序二叉树 , 由于其有序的性质，可以采用中序遍历的方式，判断遍历过程中的数字是否是递增的。所以这里的主要难点是如何进行中序遍历，如何减少遍历的时间空间复杂度。
+
+对于完全二叉树（CBT）,可以通过按层次遍历的方法来对树结构的完整性进行验证。也可以通过递归方法来解决。
+
+```java
+public boolean isBST(TreeNode node){
+        if(node==null){
+            return false;
+        }
+        int pre=Integer.MAX_VALUE;
+        Stack<TreeNode> stack=new Stack<>();//借助于栈结构来进行遍历,空间复杂度高
+        stack.push(node);
+
+        while(!stack.isEmpty()||node!=null){
+            if(node!=null){
+                stack.push(node);
+                node=node.left;
+            }else{
+                node=stack.pop();
+                if(pre!=Integer.MAX_VALUE&&node.val<pre){
+                    return false;
+                }
+                pre=node.val;
+            }
+        }
+        return true;
+    }
+```
+
+基于moris遍历方法
+
+```java
+//不借助栈实现中序遍历
+    public boolean isBst(TreeNode node){
+        if(node==null){
+            return false;
+        }
+        TreeNode cur1=node;
+        TreeNode cur2=null;
+        int pre=Integer.MAX_VALUE;
+        while(cur1!=null){
+            cur2=cur1.left;
+            if(cur2!=null){
+                while(cur2.right!=null&&cur2.right!=cur1){
+                    cur2=cur2.right;
+                }
+                if(cur2.right==null){
+                    cur2.right=cur1;
+                    cur1=cur1.left;
+                    continue;
+                }else{
+                    cur2.right=null;
+                }
+            }
+            if(pre!=Integer.MAX_VALUE&&pre>cur1.val){
+                return false;
+            }
+                pre=cur1.val;
+                cur1=cur1.right;
+       
+        return true;
+    }
+```
+
+### 11. 判断完全二叉树
+
+采用递归方式的关键在于设计全局变量，保存结果，一旦发现结果不满足要求就返回，不再进行后面的遍历。
+
+用层次遍历，主要是区分是否到达叶子层，如果是叶子层，那么后面的节点都不能有子节点。层次遍历更加直观一些。
+
+```java
+/**
+     * 递归方式实现
+     * @param node
+     * @return boolean
+     */
+    public boolean isCBT(TreeNode node){
+        if(node==null){
+            return false;
+        }
+        boolean[] res=new boolean[1];
+        res[0]=true;
+        getHeight(node,0,res);
+        return res[0];
+    }
+    public int getHeight(TreeNode node, int level, boolean[] res){
+        if(node==null){
+            return level;
+        }
+        if(node.left==null&&node.right==null){
+            return level+1;
+        }
+        if(node.left!=null&&node.right!=null){
+            int Hleft=getHeight(node.left,level+1,res);
+            if(!res[0]){
+                return level;
+            }
+            int Hright=getHeight(node.right,level+1,res);
+            if(!res[0]){
+                return level;
+            }
+            if(Hleft!=Hright){
+                res[0]=false;
+                return level;
+            }
+            return Hleft;
+        }
+        res[0]=false;
+        return level;
+    }
+```
+
+用层次遍历
+
+```java
+/**
+     * 用层次遍历的方法来实现
+     * @param node
+     * @return
+     */
+    public boolean isCbt(TreeNode node){
+        if(node==null){
+            return false;
+        }
+        Queue<TreeNode> queue=new LinkedList<>();
+        queue.offer(node);
+        boolean leaf=false;
+        while(!queue.isEmpty()){
+            TreeNode cur=queue.poll();
+            if(leaf&&(cur.left!=null||cur.right!=null)
+               ||cur.left==null&&cur.right!=null
+               ||cur.right==null&&cur.left!=null){
+                return false;
+            }
+            if(cur.left!=null){
+                queue.offer(cur.left);
+            }
+            if(cur.right!=null){
+                queue.offer(cur.right);
+            }
+            if(cur.left==null&&cur.right==null){
+                leaf=true;
+            }
+        }
+        return true;
+    }
+```
+
+### 12. 判断是否是平衡二叉树
+
+同样的是将问题转化为中序遍历的问题，先遍历左子树，若左子树不是平衡的，后面的不要再遍历。若左右子树都是平衡的，通过比较两边的高度来判断根节点是否平衡。
+
+```java
+ public boolean isBalance(TreeNode head){
+        boolean[] res=new boolean[1];
+        res[0]=true;
+        getHeight(head,1,res);
+        return res[0];
+    }
+    public int getHeight(TreeNode head, int level,boolean[] res){
+        if(head==null){
+            return level;
+        }
+        int leftLevel=getHeight(head.left,level+1,res);
+        if(!res[0])
+        {
+            return level;
+        }
+        int rightLevel=getHeight(head.right,level+1,res);
+        if(!res[0])
+        {
+            return level;
+        }
+        if(Math.abs(leftLevel-rightLevel)>1){
+            res[0]=false;
+        }
+        return Math.max(leftLevel,rightLevel);
+    }
+```
+
+### 13. 判断一个整形数组是否是排序树的后续遍历结果
+
+这里用了`Arrays.copyOfRange`，也可以直接用数组下标表示范围开始和结束。按照定义来判断就行了。
+
+根据一个后续遍历数组来恢复二叉树的过程，可以变成一个前序遍历的过程。
+
+```java
+public static boolean isPostArray(int[] arr){
+        if(arr==null||arr.length==0){
+            return true;
+        }
+        int len=arr.length;
+        int posLeft=0;
+        while(posLeft<len&&arr[posLeft]<arr[len-1]){
+            posLeft++;
+        }
+        int posRight=posLeft;
+        while(posRight<len&&arr[posRight]>arr[len-1]){
+            posRight++;
+        }
+        if(posRight!=len-1){
+            return false;
+        }
+        return isPostArray(Arrays.copyOfRange(arr,0,posLeft))
+            &&isPostArray(Arrays.copyOfRange(arr,posLeft,posRight));
+    }
+    public static boolean isPost(int[] arr){
+        if(arr==null||arr.length==0){
+            return false;
+        }
+         return isPostArray(arr);
+    }
+```
+
+
+
+## 第八章 数组
+
+### 求未排序数组中累加和为指定值的最长子数组
+
+通过用map记录前面遍历过的值累加和出现的位置，在后面的判断中利用。其他问题也可以转为求指定和的问题。
+
+第一个补充问题，求正数和负数个数相等的子数组，先把数组arr中的正数全部变成1，负数全部变成-1，0不变，然后求累加和为0的最长子数组长度即可。
+
+第二个补充问题，求0和1个数相同的子数组，先把数组arr中的0全部变成-1，1不变，然后求累加和为0的最长子数组长度即可。
+
+```java
+public static int getLongSub(int[] arr,int k){
+    if(arr==null||arr.length==0){
+        return 0;
+    }
+    Map<Integer,Integer> map=new HashMap<>();
+    map.put(0,0);//这一步不要忘了，是初始位置边界条件
+    int sum=0;
+    int len=0;
+    for(int i=0;i<arr.length;i++){
+        sum+=arr[i];
+        if(map.containsKey(sum-k)){
+            int index=map.get(sum-k);
+            len=Math.max(i+1-index,len);
+        }
+        if(!map.containsKey(sum)){
+            map.put(sum,i+1);
+        }
+    }
+    return len;
 }
 ```
