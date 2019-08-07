@@ -1,6 +1,5 @@
 package com.gangbin.Tree;
 
-import com.zuo.Excercise_2_LinkedList.Node;
 
 /**
  * 最大的搜索二叉树结构
