@@ -1,5 +1,8 @@
 package com.gangbin.Tree;
 
+import com.gangbin.config.GetTree;
+import sun.reflect.generics.tree.Tree;
+
 import java.util.Stack;
 
 /**
@@ -19,16 +22,16 @@ public class PreAndInAndPostRecur {
         if(root==null){
             return;
         }
-        preOrderRecur(root.left);
+        inOrderRecur(root.left);
         System.out.println(root.val);
-        preOrderRecur(root.right);
+        inOrderRecur(root.right);
     }
     public void postOrderRecur(TreeNode root){
         if(root==null){
             return;
         }
-        preOrderRecur(root.left);
-        preOrderRecur(root.right);
+        postOrderRecur(root.left);
+        postOrderRecur(root.right);
         System.out.println(root.val);
     }
     //非递归方法实现
@@ -206,6 +209,16 @@ public void morrisIn(TreeNode root){
             cur=next;
         }
         return pre;
+    }
+
+    public static void main(String[] args) {
+        TreeNode node=GetTree.getTree();
+
+        new PreAndInAndPostRecur().postOrderUnRecur(node);
+        System.out.println("--------------");
+        new PreAndInAndPostRecur().preOrderRecur(node);
+        System.out.println("------------------");
+        new PreAndInAndPostRecur().inOrderUnRecur(node);
     }
 
 

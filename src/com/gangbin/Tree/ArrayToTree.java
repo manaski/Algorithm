@@ -52,9 +52,9 @@ public class ArrayToTree {
         }
 
         TreeNode node=new TreeNode(head);
-        node.left=preInToTree(Arrays.copyOfRange(postOrder,0,index),
+        node.left=postInToTree(Arrays.copyOfRange(postOrder,0,index),
                 Arrays.copyOfRange(inOrder,0,index));
-        node.right=preInToTree(Arrays.copyOfRange(postOrder,index,len-1),
+        node.right=postInToTree(Arrays.copyOfRange(postOrder,index,len-1),
                 Arrays.copyOfRange(inOrder,index+1,len));
        return node;
     }
@@ -86,6 +86,21 @@ public class ArrayToTree {
                 Arrays.copyOfRange(post,index+1,len-1));
         return node;
     }
+
+    public static void main(String[] args) {
+        int[] post={1,3,2,5,7,6,4};
+        int[] pre={4,2,1,3,6,5,7};
+        int[] in={1,2,3,4,5,6,7};
+        ArrayToTree a=new ArrayToTree();
+        TreeNode node=a.preInToTree(pre,in);
+        new PreAndInAndPostRecur().preOrderRecur(node);
+        TreeNode node1=a.prePostToTree(pre,post);
+        new PreAndInAndPostRecur().preOrderRecur(node1);
+        TreeNode node2=a.postInToTree(post,in);
+        new PreAndInAndPostRecur().preOrderRecur(node2);
+    }
+
+
 
 
 }

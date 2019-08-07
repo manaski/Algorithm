@@ -839,30 +839,31 @@ public static Node deleteRep(Node head){
 很简单，时间复杂度为O(N)，空间复杂度为递归深度O(N)
 
 ```java
-public void preOrderRecur(TreeNode root){
-    if(root==null){
-        return;
+ //递归方法实现
+    public void preOrderRecur(TreeNode root){
+        if(root==null){
+            return;
+        }
+        System.out.println(root.val);
+        preOrderRecur(root.left);
+        preOrderRecur(root.right);
     }
-    System.out.println(root.val);
-    preOrderRecur(root.left);
-    preOrderRecur(root.right);
-}
-public void inOrderRecur(TreeNode root){
-    if(root==null){
-        return;
+    public void inOrderRecur(TreeNode root){
+        if(root==null){
+            return;
+        }
+        inOrderRecur(root.left);
+        System.out.println(root.val);
+        inOrderRecur(root.right);
     }
-    preOrderRecur(root.left);
-    System.out.println(root.val);
-    preOrderRecur(root.right);
-}
-public void postOrderRecur(TreeNode root){
-    if(root==null){
-        return;
+    public void postOrderRecur(TreeNode root){
+        if(root==null){
+            return;
+        }
+        postOrderRecur(root.left);
+        postOrderRecur(root.right);
+        System.out.println(root.val);
     }
-    preOrderRecur(root.left);
-    preOrderRecur(root.right);
-    System.out.println(root.val);
-}
 ```
 
 #### 非递归遍历
@@ -1909,6 +1910,96 @@ public static boolean isPostArray(int[] arr){
             return false;
         }
          return isPostArray(arr);
+    }
+```
+
+### 14. 利用前序后序中序数组还原二叉树
+
+前序中序，中序后序都比较好还原，前序后序并不能确定一个唯一二叉树，只能在二叉树节点只存在0个或2个子节点时才能还原二叉树。
+
+```java
+public TreeNode preInToTree(int[] preOrder,int[] inOrder){
+        if(preOrder==null||preOrder.length==0){
+            return null;
+        }
+        if(preOrder.length==1){
+            return new TreeNode(preOrder[0]);
+        }
+        int head=preOrder[0];
+        int index=0;
+        int len=inOrder.length;
+        while(index<len&&inOrder[index]!=head){
+            index++;
+        }
+
+        TreeNode node=new TreeNode(head);
+        node.left=preInToTree(Arrays.copyOfRange(preOrder,1,index+1),
+                                    Arrays.copyOfRange(inOrder,0,index));
+        node.right=preInToTree(Arrays.copyOfRange(preOrder,index+1,len),
+                Arrays.copyOfRange(inOrder,index+1,len));
+        return node;
+    }
+```
+
+```java
+ /**
+     * 先序遍历和中序遍历可以获得二叉树
+     * 可以用下标，也可以用数组复制
+     * @param postOrder
+     * @param inOrder
+     * @return
+     */
+    public TreeNode postInToTree(int[] postOrder,int[] inOrder){
+        if(postOrder==null||postOrder.length==0){
+            return null;
+        }
+        if(postOrder.length==1){
+            return new TreeNode(postOrder[0]);
+        }
+        int len=inOrder.length;
+        int head=postOrder[len-1];
+        int index=0;
+        while(index<len&&inOrder[index]!=head){
+            index++;
+        }
+
+        TreeNode node=new TreeNode(head);
+        node.left=preInToTree(Arrays.copyOfRange(postOrder,0,index),
+                Arrays.copyOfRange(inOrder,0,index));
+        node.right=preInToTree(Arrays.copyOfRange(postOrder,index,len-1),
+                Arrays.copyOfRange(inOrder,index+1,len));
+       return node;
+    }
+```
+
+```java
+
+    /**
+     * 不是任意两个数组都可以获得唯一二叉树，只有当二叉树节点有零个或两个子节点时才可以获得
+     * @param pre
+     * @param post
+     * @return
+     */
+    public TreeNode prePostToTree(int[] pre,int[] post){
+        if(pre==null||pre.length==0){
+            return null;
+        }
+        if(pre.length==1){
+            return new TreeNode(pre[0]);
+        }
+
+        int len=pre.length;
+        int head=pre[0];
+        int index=0;
+        while(index<len&&post[index]!=pre[1]){
+            index++;
+        }
+        TreeNode node=new TreeNode(head);
+        node.left=prePostToTree(Arrays.copyOfRange(pre,1,index+2),
+                Arrays.copyOfRange(post,0,index+1));
+        node.right=prePostToTree(Arrays.copyOfRange(pre,index+2,len),
+                Arrays.copyOfRange(post,index+1,len-1));
+        return node;
     }
 ```
 
