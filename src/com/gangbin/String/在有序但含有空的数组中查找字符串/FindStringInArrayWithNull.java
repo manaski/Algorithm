@@ -1,7 +1,7 @@
-package com.gangbin.String;
+package com.gangbin.String.在有序但含有空的数组中查找字符串;
 
 /**
- * 找到有序数组中字符串出现的最早的位置
+ * 找到有序数组中找字符串出现的最早的位置
  * 数组中可能存在null
  * 关键在于想到用二分查找的思想
  */

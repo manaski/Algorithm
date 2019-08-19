@@ -1,4 +1,4 @@
-package com.gangbin.String;
+package com.gangbin.String.最长无重复的子串;
 
 /**
  * 最长无重复子串

@@ -1,4 +1,4 @@
-package com.gangbin.String;
+package com.gangbin.String.添加最少字符得到回文串;
 
 /**
  * 给定字符串，添加最少的字符使之成为回文串
