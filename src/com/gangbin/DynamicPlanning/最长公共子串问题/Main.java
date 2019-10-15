@@ -1,5 +1,7 @@
 package com.gangbin.DynamicPlanning.最长公共子串问题;
 
+import java.util.Scanner;
+
 /**
  * @author gangbin.li
  * @description: 代码
@@ -88,8 +90,9 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        String str1 = "ABC1234567DEFG";
-        String str2 = "HIJKL1234567MNOP";
+        Scanner sc=new Scanner(System.in);
+        String str1 = sc.nextLine();
+        String str2 = sc.nextLine();
         System.out.println(lcst1(str1, str2));
         System.out.println(lcst2(str1, str2));
 

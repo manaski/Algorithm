@@ -2037,3 +2037,120 @@ public static int getLongSub(int[] arr,int k){
     return len;
 }
 ```
+
+
+
+
+
+
+
+# 刷题记录
+
+## 1、求两个数组的中位数和将数组分成大小两部分
+
+这个问题都可以转化为求数组的第k大元素的问题，采用的方式是快速排序中用到过的基于基准数字进行分块的思想。
+
+## 2、采用常数空间复杂度和nlogn的时间复杂度对链表排序
+
+如果不考虑空间复杂度的要求，可以采用归并排序的方式来完成，归并的分割采用快慢指针，排序后再递归合并。
+
+快速排序的三种方法，两种是针对连续数据结构，对于链表结构，采用快慢指针方式
+
+## 3、DI数组下的数列组合数目
+
+我们给出 S，一个源于 {'D', 'I'} 的长度为 n 的字符串 。（这些字母代表 “减少” 和 “增加”。）
+有效排列 是对整数 {0, 1, ..., n} 的一个排列 P[0], P[1], ..., P[n]，使得对所有的 i：
+
+如果 S[i] == 'D'，那么 P[i] > P[i+1]，以及；
+如果 S[i] == 'I'，那么 P[i] < P[i+1]。
+有多少个有效排列？因为答案可能很大，所以请返回你的答案模 10^9 + 7.
+
+可以想到的是：
+
+当S[i]=I时
+
+```java
+res[i][j] = res[i-1][j-1] + res[i-1][j-2] + ... + res[i-1][0]
+res[i][j-1] = res[i-1][j-2] + res[i-1][j-3] + ... + res[i-1][0]
+//所以可得
+res[i][j]=res[i][j-1] +res[i-1][j-1];
+```
+
+当S[i]=D时
+
+```java
+res[i][j] = res[i-1][j] + res[i-1][j+1] + res[i-1][j+2] + ... + res[i-1][i-1]
+res[i][j+1] = res[i-1][j+1] + res[i-1][j+2] + res[i-1][j+3] + ... + res[i-1][i-1]
+res[i][j]=res[i][j+1]+res[i-1][j]；
+```
+
+从而可以得到递推公式，按照递推公式来计算相应的值
+
+```java
+     public static int numPermsDISequence(String S) {
+            int res = 0;
+            int n = S.length();
+            int M = 1000000000+ 7;
+            int[][] dp=new int[n+1][n+1];
+            dp[0][0] = 1;
+            for (int i = 1; i <= n; ++i) {
+                for (int j = 0; j <= i; ++j) {
+                    if (S.charAt(i-1) == 'D') {   //前面是比较大的数字的组合
+                        for (int k = j; k <= i - 1; ++k) {  //0-i-1的数字组成的排列中以j结尾的
+                            dp[i][j] = (dp[i][j] + dp[i-1][k]) % M;
+                        }
+                    } else {
+                        for (int k = 0; k <= j - 1; ++k) {
+                            dp[i][j] = (dp[i][j] + dp[i-1][k]) % M;
+                        }
+                    }
+                }
+            }
+            for (int i = 0; i <= n; ++i) {
+                res = (res + dp[n][i]) % M;   //结果在最后一行加
+            }
+            return res;
+        }
+```
+
+```java
+public static int numPermsDISequence(int[] arr) {
+                  int n = arr.length;
+                  int Mod = 1000000000 + 7;
+            int[][] dp=new int[n+1][n+1];     // 表示长度为i的排列中最后一位是剩余元素中第j小的
+            for (int j = 0; j <= n; ++j) {
+                dp[0][j] = 1;
+            }
+            for (int i = 0; i < n; ++i) {
+                if (arr[i]== 0) {   //表示要增大
+                    int  num = 0;
+                    for (int j = 0; j < n - i; ++j) {
+                       num = (num + dp[i][j]) % Mod;    //表示以小于j的数字结尾的所有组合数相加
+                        dp[i + 1][j] = num;     //在累加过程中，更新前面的
+                        //dp[i + 1][j]=dp[i + 1][j-1]+dp[i][j-1];
+                    }
+                } else {   //要减少
+                    int num = 0;
+                    for (int j = n - 1 - i; j >= 0; --j) {
+                         num = (num + dp[i][j + 1]) % Mod;
+                         dp[i + 1][j] = num;
+                         // dp[i + 1][j]=dp[i+1][j+1]+dp[i][j + 1]
+                    }
+                }
+            }
+            return dp[n][0];
+        }
+```
+
+```java
+
+
+dp[i][j] 表示由 i+1 个数字组成且第 i+1 个数字（即序列中的最后一个数字）是剩余数字中（包括当前数字）中第 j+1 小的数字。
+如果是要递增的情况，那么dp[i-1][j]的j只能取比较小的值，也就是当时第1-j+1小的数字
+如果是递减的情况，那么dp[i-1][j]的j只能取比较大的值，也就是当时第j+1-n-i的数字
+```
+
+
+
+
+

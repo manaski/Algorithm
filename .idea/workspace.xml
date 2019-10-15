@@ -2,12 +2,47 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4e02e62-2d8a-474c-947a-9bbaa2555372" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/gangbin/Tree/根据前序中序后序数组恢复搜索树/ArrayToTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gangbin/String/AddLeastCharToGetPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gangbin/String/添加最少字符得到回文串/AddLeastCharToGetPalindrome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gangbin/String/BracketString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gangbin/String/返回最长有效括号串/BracketString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gangbin/String/Every0Has1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gangbin/String/字符0旁边必须有1的字符串数量/Every0Has1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gangbin/String/FindStringInArrayWithNull.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gangbin/String/在有序但含有空的数组中查找字符串/FindStringInArrayWithNull.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gangbin/String/LongestUnique.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gangbin/String/最长无重复的子串/LongestUnique.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gangbin/DynamicPlanning/最长公共子串问题/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gangbin/DynamicPlanning/最长公共子串问题/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gangbin/LinkedList/CalculateList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gangbin/LinkedList/两个单链表相加/CalculateList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gangbin/LinkedList/ChangeTreeToDeList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gangbin/LinkedList/把搜索树转为双向链表/ChangeTreeToDeList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gangbin/LinkedList/CommonPart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gangbin/LinkedList/打印两个链表的公共节点/CommonPart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gangbin/LinkedList/CopyListWithRandomPointer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gangbin/LinkedList/复制含有随机节点的链表/CopyListWithRandomPointer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gangbin/LinkedList/CrossLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gangbin/LinkedList/不存在环的两个链表的相交节点/CrossLists.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gangbin/LinkedList/CrossedListWithLoop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gangbin/LinkedList/判断两个链表是否相交/CrossedListWithLoop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gangbin/LinkedList/DeleteNodeK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gangbin/LinkedList/删除链表中指定的值/DeleteNodeK.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gangbin/LinkedList/DeleteRep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gangbin/LinkedList/删除重复出现的节点/DeleteRep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gangbin/LinkedList/DeleteTheKthNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gangbin/LinkedList/删除倒数第K个节点/DeleteTheKthNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gangbin/LinkedList/InsertToList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gangbin/LinkedList/有序环形链表中插入节点/InsertToList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gangbin/LinkedList/JospherKill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gangbin/LinkedList/环形队列报数杀死游戏/JospherKill.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gangbin/LinkedList/LoopList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gangbin/LinkedList/判断链表是否带有环/LoopList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gangbin/StackAndQueue/MaxInWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gangbin/StackAndQueue/窗口最大值/MaxInWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gangbin/String/LowestString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gangbin/String/字符串拼接后字典序最小的/LowestString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gangbin/String/MinCutForPallination.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gangbin/String/切割成回文子串的最小切割数/MinCutForPallination.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gangbin/String/MinDistanceBetweenStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gangbin/String/字符串数组中两个字符串最小距离/MinDistanceBetweenStrings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gangbin/String/MinStringContainsChars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gangbin/String/MinStringContainsChars.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gangbin/Tree/ArrayToTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gangbin/Tree/BalancedTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gangbin/Tree/判断一棵二叉树是否平衡/BalancedTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gangbin/Tree/BinaryTreeIsBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gangbin/Tree/判断是否是搜索二叉树/BinaryTreeIsBST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gangbin/Tree/CompleteBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gangbin/Tree/判断是否完全二叉树/CompleteBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gangbin/Tree/ContainsTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gangbin/Tree/是否包含树的全部拓扑结构/ContainsTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gangbin/Tree/LargestDistance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gangbin/Tree/二叉树中的最大距离/LargestDistance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gangbin/Tree/LowestAncestor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gangbin/Tree/找到最近公共祖先/LowestAncestor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gangbin/Tree/LowestAncestor2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gangbin/Tree/找到最近公共祖先/LowestAncestor2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gangbin/Tree/MaxLengthSumToK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gangbin/Tree/累加和为指定值的最长路径/MaxLengthSumToK.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gangbin/Tree/MaxSearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gangbin/Tree/节点数最多的搜索二叉树子树/MaxSearchTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gangbin/Tree/NextNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gangbin/Tree/中序遍历的后序节点/NextNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gangbin/Tree/PostArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gangbin/Tree/是否是搜索树的后序数组及恢复搜索二叉树/PostArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gangbin/Tree/PostArrayFromPreIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gangbin/Tree/由前序和中序获得后序遍历数组/PostArrayFromPreIn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gangbin/Tree/PostArrayToTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gangbin/Tree/后序获得二叉树/PostArrayToTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gangbin/Tree/PreAndInAndPostRecur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gangbin/Tree/前序中序后序遍历方法/PreAndInAndPostRecur.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gangbin/Tree/PrintByLevel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gangbin/Tree/按层打印和按Z型打印/PrintByLevel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gangbin/Tree/PrintTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gangbin/Tree/图形化打印二叉树/PrintTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gangbin/Tree/SerializedTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gangbin/Tree/二叉树序列化和反序列化/SerializedTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gangbin/Tree/TheNumberOfNodes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gangbin/Tree/完全二叉树的节点树/TheNumberOfNodes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gangbin/Tree/TheNumberOfTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gangbin/Tree/可能的二叉树数量/TheNumberOfTree.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,24 +67,27 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="72" />
+          <entry key="JAVA" value="422" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="23491" />
-          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="JAVA" value="129731" />
+          <entry key="PLAIN_TEXT" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.1" value="2" />
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.5" value="1" />
+          <entry key="project.closed" value="23" />
+          <entry key="project.open.time.0" value="4" />
+          <entry key="project.open.time.1" value="6" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.2" value="2" />
+          <entry key="project.open.time.5" value="4" />
+          <entry key="project.open.time.6" value="7" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="26" />
         </counts>
       </usages-collector>
     </session>
@@ -57,19 +95,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/gangbin/Company/小红书/Main1.java">
+        <entry file="file://$PROJECT_DIR$/src/com/gangbin/Company/拼多多2019/Main3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+            <state relative-caret-position="950">
+              <caret line="50" column="22" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/gangbin/DynamicPlanning/换钱的最少货币数/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/验证搜索树.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="80" column="32" lean-forward="true" selection-start-line="80" selection-start-column="32" selection-end-line="80" selection-end-column="32" />
+            <state relative-caret-position="399">
+              <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -78,19 +116,76 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/gangbin/DynamicPlanning/最长公共子序列/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/过桥问题.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-225">
-              <caret line="17" column="34" lean-forward="true" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+            <state relative-caret-position="741">
+              <caret line="43" column="29" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/车队问题.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/路径总数3.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/计算表面积.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="532">
+              <caret line="28" column="39" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/计算24点.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="817">
+              <caret line="43" column="25" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/获得子集.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/gangbin/DynamicPlanning/最长公共子串问题/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/股票问题6个问题.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="48" column="18" lean-forward="true" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="18" />
+            <state relative-caret-position="640">
+              <caret line="90" column="17" selection-start-line="90" selection-start-column="17" selection-end-line="90" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/链表相交.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -100,9 +195,17 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>size()</find>
+      <find>MIN_TREEIFY_CAPACITY</find>
+      <find>kc</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -110,57 +213,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/gangbin/config/GetTree.java" />
-        <option value="$PROJECT_DIR$/src/com/gangbin/Tree/TreeNode.java" />
-        <option value="$PROJECT_DIR$/src/com/gangbin/Tree/ArrayToTree.java" />
-        <option value="$PROJECT_DIR$/src/com/gangbin/Tree/PreAndInAndPostRecur.java" />
-        <option value="$PROJECT_DIR$/src/com/gangbin/Tree/PostArrayFromPreIn.java" />
-        <option value="$PROJECT_DIR$/src/com/gangbin/Tree/TheNumberOfTree.java" />
-        <option value="$PROJECT_DIR$/src/com/gangbin/Tree/TheNumberOfNodes.java" />
-        <option value="$PROJECT_DIR$/src/com/gangbin/Tree/LargestDistance.java" />
-        <option value="$PROJECT_DIR$/src/com/gangbin/Tree/LowestAncestor.java" />
-        <option value="$PROJECT_DIR$/src/com/gangbin/Tree/LowestAncestor2.java" />
-        <option value="$PROJECT_DIR$/src/com/gangbin/Tree/PPNode.java" />
-        <option value="$PROJECT_DIR$/src/com/gangbin/Tree/NextNode.java" />
-        <option value="$PROJECT_DIR$/src/com/gangbin/Tree/ContainsTree.java" />
-        <option value="$PROJECT_DIR$/src/com/gangbin/Company/贝壳找房/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/gangbin/Company/贝壳找房/Main4.java" />
-        <option value="$PROJECT_DIR$/src/com/gangbin/Company/贝壳找房/Main3.java" />
-        <option value="$PROJECT_DIR$/src/com/gangbin/Company/字节跳动/Main3.java" />
-        <option value="$PROJECT_DIR$/src/com/gangbin/Company/字节跳动/Main4.java" />
-        <option value="$PROJECT_DIR$/src/com/gangbin/Company/字节跳动/Main2.java" />
-        <option value="$PROJECT_DIR$/src/com/gangbin/Company/字节跳动/Main1.java" />
-        <option value="$PROJECT_DIR$/src/com/gangbin/Company/腾讯/BlackAndWhite.java" />
-        <option value="$PROJECT_DIR$/src/com/gangbin/Company/腾讯/ChangeColor.java" />
-        <option value="$PROJECT_DIR$/src/com/gangbin/String/KMS算法/KMSTest.java" />
-        <option value="$PROJECT_DIR$/src/com/gangbin/String/Sunday算法/SundayTest.java" />
-        <option value="$PROJECT_DIR$/src/com/gangbin/Company/分发糖果/Candy.java" />
-        <option value="$PROJECT_DIR$/src/com/gangbin/Company/腾讯/CountString.java" />
-        <option value="$PROJECT_DIR$/src/com/gangbin/Company/奇虎360/Main1.java" />
-        <option value="$PROJECT_DIR$/src/com/gangbin/Company/奇虎360/Main2.java" />
-        <option value="$PROJECT_DIR$/src/com/gangbin/String/添加最少字符得到回文串/AddLeastCharToGetPalindrome.java" />
-        <option value="$PROJECT_DIR$/src/com/gangbin/String/返回最长有效括号串/BracketString.java" />
-        <option value="$PROJECT_DIR$/src/com/gangbin/String/字符0旁边必须有1的字符串数量/Every0Has1.java" />
-        <option value="$PROJECT_DIR$/src/com/gangbin/String/FindStringInArrayWithNull.java" />
-        <option value="$PROJECT_DIR$/src/com/gangbin/String/在有序但含有空的数组中查找字符串/FindStringInArrayWithNull.java" />
-        <option value="$PROJECT_DIR$/src/com/gangbin/Company/小红书/Main2.java" />
-        <option value="$PROJECT_DIR$/src/com/gangbin/Company/小红书/Main5.java" />
-        <option value="$PROJECT_DIR$/src/com/gangbin/Company/小红书/Main4.java" />
-        <option value="$PROJECT_DIR$/src/com/gangbin/Company/小红书/Main3.java" />
-        <option value="$PROJECT_DIR$/src/com/gangbin/Company/小红书/Main1.java" />
-        <option value="$PROJECT_DIR$/src/com/gangbin/DynamicPlanning/Main1.java" />
-        <option value="$PROJECT_DIR$/src/com/gangbin/DynamicPlanning/换钱的组合数和购物/Main1.java" />
-        <option value="$PROJECT_DIR$/src/com/gangbin/DynamicPlanning/矩阵最小路径和/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/gangbin/Others/计算整数的n次方/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/gangbin/DynamicPlanning/斐波那契数列/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/gangbin/DynamicPlanning/还钱的最少货币数/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/gangbin/DynamicPlanning/换钱的最少货币数/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/gangbin/Other/整数的次方/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/gangbin/Other/二分查找算法/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/gangbin/DynamicPlanning/最长递增子序列/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/gangbin/DynamicPlanning/汉诺塔问题/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/gangbin/DynamicPlanning/最长公共子串/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/gangbin/DynamicPlanning/最长公共子串问题/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/gangbin/leetcode题目/目标和.java" />
+        <option value="$PROJECT_DIR$/src/com/gangbin/leetcode题目/搜索树的众数.java" />
+        <option value="$PROJECT_DIR$/src/com/gangbin/leetcode题目/过桥问题.java" />
+        <option value="$PROJECT_DIR$/src/com/gangbin/leetcode题目/打敌人.java" />
+        <option value="$PROJECT_DIR$/src/com/gangbin/leetcode题目/水池游泳.java" />
+        <option value="$PROJECT_DIR$/src/com/gangbin/leetcode题目/分割数组相等.java" />
+        <option value="$PROJECT_DIR$/src/com/gangbin/leetcode题目/跳台阶.java" />
+        <option value="$PROJECT_DIR$/src/com/gangbin/leetcode题目/ExceptionTest.java" />
+        <option value="$PROJECT_DIR$/src/com/gangbin/leetcode题目/股票问题6个问题.java" />
+        <option value="$PROJECT_DIR$/src/com/gangbin/leetcode题目/股票价格跨度.java" />
+        <option value="$PROJECT_DIR$/src/com/gangbin/leetcode题目/IPO项目.java" />
+        <option value="$PROJECT_DIR$/src/com/gangbin/leetcode题目/求1的个数.java" />
+        <option value="$PROJECT_DIR$/src/com/gangbin/leetcode题目/车队问题.java" />
+        <option value="$PROJECT_DIR$/src/com/gangbin/leetcode题目/划分数组排序.java" />
+        <option value="$PROJECT_DIR$/src/com/gangbin/leetcode题目/计算表面积.java" />
+        <option value="$PROJECT_DIR$/src/com/gangbin/leetcode题目/DI排列的可能数.java" />
+        <option value="$PROJECT_DIR$/src/com/gangbin/leetcode题目/移除盒子的問題.java" />
+        <option value="$PROJECT_DIR$/src/com/gangbin/leetcode题目/最长重复子串.java" />
+        <option value="$PROJECT_DIR$/src/com/gangbin/leetcode题目/成绩单.java" />
+        <option value="$PROJECT_DIR$/src/com/gangbin/leetcode题目/字典序第k个数字.java" />
+        <option value="$PROJECT_DIR$/src/com/gangbin/leetcode题目/计算24点.java" />
+        <option value="$PROJECT_DIR$/src/com/gangbin/leetcode题目/火星文字.java" />
+        <option value="$PROJECT_DIR$/src/com/gangbin/leetcode题目/播放列表数量.java" />
+        <option value="$PROJECT_DIR$/src/com/gangbin/leetcode题目/重排列为2的幂方.java" />
+        <option value="$PROJECT_DIR$/src/com/gangbin/leetcode题目/将排序树转为循环双向链表.java" />
+        <option value="$PROJECT_DIR$/src/com/gangbin/leetcode题目/拆分为单调数组.java" />
+        <option value="$PROJECT_DIR$/src/com/gangbin/leetcode题目/均值拆分数组.java" />
+        <option value="$PROJECT_DIR$/src/com/gangbin/leetcode题目/形成唯一数组.java" />
+        <option value="$PROJECT_DIR$/src/com/gangbin/leetcode题目/最大搜索树.java" />
+        <option value="$PROJECT_DIR$/src/com/gangbin/leetcode题目/移动数组最大目标.java" />
+        <option value="$PROJECT_DIR$/src/com/gangbin/leetcode题目/乘法表中第k小的数字.java" />
+        <option value="$PROJECT_DIR$/src/com/gangbin/Company/有赞/Main1.java" />
+        <option value="$PROJECT_DIR$/src/com/gangbin/Company/有赞/Main2.java" />
+        <option value="$PROJECT_DIR$/src/com/gangbin/leetcode题目/消消乐.java" />
+        <option value="$PROJECT_DIR$/src/com/gangbin/Bit/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/gangbin/网络编程/多线程模式/ClientThread.java" />
+        <option value="$PROJECT_DIR$/src/com/gangbin/网络编程/多线程模式/MyClient.java" />
+        <option value="$PROJECT_DIR$/src/com/gangbin/网络编程/多线程模式/MyServer.java" />
+        <option value="$PROJECT_DIR$/src/com/gangbin/网络编程/NIO模式/NClient.java" />
+        <option value="$PROJECT_DIR$/src/com/gangbin/网络编程/NIO模式/NServer.java" />
+        <option value="$PROJECT_DIR$/src/com/gangbin/网络编程/AIO模式/SimpleAIOClient.java" />
+        <option value="$PROJECT_DIR$/src/com/gangbin/网络编程/AIO模式/SimpleAIOServer.java" />
+        <option value="$PROJECT_DIR$/src/com/gangbin/网络编程/AIO模式2/AIOServer.java" />
+        <option value="$PROJECT_DIR$/src/com/gangbin/动态代理/Human.java" />
+        <option value="$PROJECT_DIR$/src/com/gangbin/动态代理/Person.java" />
+        <option value="$PROJECT_DIR$/src/com/gangbin/动态代理/ProxyTest.java" />
+        <option value="$PROJECT_DIR$/src/com/gangbin/实现HashMap.java" />
+        <option value="$PROJECT_DIR$/src/com/gangbin/实现HashMap/MapTest.java" />
+        <option value="$PROJECT_DIR$/src/com/gangbin/实现HashMap/MyHashMap.java" />
+        <option value="$PROJECT_DIR$/src/com/gangbin/Company/拼多多2019/Main3.java" />
+        <option value="$PROJECT_DIR$/src/com/gangbin/leetcode题目/验证搜索树.java" />
       </list>
     </option>
   </component>
@@ -171,10 +274,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-58" />
-    <option name="y" value="51" />
-    <option name="width" value="1350" />
-    <option name="height" value="1050" />
+    <option name="x" value="10" />
+    <option name="y" value="36" />
+    <option name="width" value="1460" />
+    <option name="height" value="1105" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -184,8 +287,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -202,44 +303,59 @@
               <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="gangbin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="gangbin" type="462c0819:PsiDirectoryNode" />
-              <item name="DynamicPlanning" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode题目" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="gangbin" type="462c0819:PsiDirectoryNode" />
-              <item name="String" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode题目" type="462c0819:PsiDirectoryNode" />
+              <item name="股票问题6个问题" type="1a9f42e2:ClassTreeNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../BookStore-SSM" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.gangbin.字节跳动" />
       <recent name="com.gangbin.DynamicPlanning.换钱的组合数和购物" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Gitrepository\Algorithm\src\com\gangbin\网络编程\AIO模式2" />
+      <recent name="E:\Gitrepository\Algorithm\src\com\gangbin\网络编程\AIO模式" />
+      <recent name="E:\Gitrepository\Algorithm\src\com\gangbin\网络编程\NIO模式" />
+      <recent name="E:\Gitrepository\Algorithm\src\com\gangbin\网络编程\多线程模式" />
       <recent name="E:\Gitrepository\AlgorithmExercise\src" />
-      <recent name="E:\Gitrepository\AlgorithmExercise\src\com\gangbin" />
-      <recent name="E:\Gitrepository\AlgorithmExercise\src\com\gangbin\1.StackAndQueue" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -254,13 +370,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (5)">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gangbin.DynamicPlanning.斐波那契数列.Main" />
+  <component name="RunManager" selected="Application.Main3">
+    <configuration name="火星文字" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gangbin.leetcode题目.火星文字" />
       <module name="AlgorithmExercise" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gangbin.DynamicPlanning.斐波那契数列.*" />
+          <option name="PATTERN" value="com.gangbin.leetcode题目.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -268,12 +384,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gangbin.Others.计算整数的n次方.Main" />
+    <configuration name="Main3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gangbin.Company.拼多多2019.Main3" />
       <module name="AlgorithmExercise" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gangbin.Others.计算整数的n次方.*" />
+          <option name="PATTERN" value="com.gangbin.Company.拼多多2019.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -281,12 +397,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gangbin.DynamicPlanning.最长递增子序列.Main" />
+    <configuration name="MapTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gangbin.实现HashMap.MapTest" />
       <module name="AlgorithmExercise" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gangbin.DynamicPlanning.最长递增子序列.*" />
+          <option name="PATTERN" value="com.gangbin.实现HashMap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -294,12 +410,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gangbin.Other.二分查找算法.Main" />
+    <configuration name="NClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gangbin.网络编程.NIO模式.NClient" />
       <module name="AlgorithmExercise" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gangbin.Other.二分查找算法.*" />
+          <option name="PATTERN" value="com.gangbin.网络编程.NIO模式.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -307,12 +423,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gangbin.DynamicPlanning.最长公共子串问题.Main" />
+    <configuration name="NServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gangbin.网络编程.NIO模式.NServer" />
       <module name="AlgorithmExercise" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gangbin.DynamicPlanning.最长公共子串问题.*" />
+          <option name="PATTERN" value="com.gangbin.网络编程.NIO模式.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -320,12 +436,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gangbin.DynamicPlanning.最长公共子序列.Main" />
+    <configuration name="ProxyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gangbin.动态代理.ProxyTest" />
       <module name="AlgorithmExercise" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gangbin.DynamicPlanning.最长公共子序列.*" />
+          <option name="PATTERN" value="com.gangbin.动态代理.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -333,12 +449,142 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gangbin.DynamicPlanning.换钱的最少货币数.Main" />
+    <configuration name="三路快排" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gangbin.leetcode题目.三路快排" />
       <module name="AlgorithmExercise" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gangbin.DynamicPlanning.换钱的最少货币数.*" />
+          <option name="PATTERN" value="com.gangbin.leetcode题目.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="全排列" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gangbin.leetcode题目.全排列" />
+      <module name="AlgorithmExercise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gangbin.leetcode题目.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="获得子集" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gangbin.leetcode题目.获得子集" />
+      <module name="AlgorithmExercise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gangbin.leetcode题目.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="拆分为单调数组" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gangbin.leetcode题目.拆分为单调数组" />
+      <module name="AlgorithmExercise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gangbin.leetcode题目.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="两两交换链表" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gangbin.leetcode题目.两两交换链表" />
+      <module name="AlgorithmExercise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gangbin.leetcode题目.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="堆排序" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gangbin.Others.堆排序" />
+      <module name="AlgorithmExercise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gangbin.Others.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="过桥问题" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gangbin.leetcode题目.过桥问题" />
+      <module name="AlgorithmExercise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gangbin.leetcode题目.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="跳台阶" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gangbin.leetcode题目.跳台阶" />
+      <module name="AlgorithmExercise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gangbin.leetcode题目.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="硬币数" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gangbin.leetcode题目.硬币数" />
+      <module name="AlgorithmExercise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gangbin.leetcode题目.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="移动链表" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gangbin.leetcode题目.移动链表" />
+      <module name="AlgorithmExercise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gangbin.leetcode题目.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="找到缺失的数字" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gangbin.leetcode题目.找到缺失的数字" />
+      <module name="AlgorithmExercise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gangbin.leetcode题目.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -347,19 +593,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main (1)" />
-      <item itemvalue="Application.Main (2)" />
-      <item itemvalue="Application.Main (3)" />
-      <item itemvalue="Application.Main (4)" />
-      <item itemvalue="Application.Main (5)" />
+      <item itemvalue="Application.火星文字" />
+      <item itemvalue="Application.NServer" />
+      <item itemvalue="Application.NClient" />
+      <item itemvalue="Application.ProxyTest" />
+      <item itemvalue="Application.MapTest" />
+      <item itemvalue="Application.Main3" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (5)" />
-        <item itemvalue="Application.Main (5)" />
-        <item itemvalue="Application.Main (4)" />
-        <item itemvalue="Application.Main (3)" />
-        <item itemvalue="Application.Main (3)" />
+        <item itemvalue="Application.Main3" />
+        <item itemvalue="Application.MapTest" />
+        <item itemvalue="Application.ProxyTest" />
+        <item itemvalue="Application.NClient" />
+        <item itemvalue="Application.NServer" />
       </list>
     </recent_temporary>
   </component>
@@ -379,26 +626,45 @@
       <workItem from="1565521818105" duration="15033000" />
       <workItem from="1565725171873" duration="35070000" />
       <workItem from="1566102197111" duration="5419000" />
-      <workItem from="1566113599238" duration="41336000" />
+      <workItem from="1566113599238" duration="42719000" />
+      <workItem from="1566277478397" duration="41875000" />
+      <workItem from="1566632705019" duration="10132000" />
+      <workItem from="1566901813181" duration="9339000" />
+      <workItem from="1567320368489" duration="11636000" />
+      <workItem from="1567405253071" duration="24000" />
+      <workItem from="1567512352021" duration="4796000" />
+      <workItem from="1567591927696" duration="63612000" />
+      <workItem from="1568027643894" duration="11877000" />
+      <workItem from="1568079105815" duration="4593000" />
+      <workItem from="1568103605415" duration="10879000" />
+      <workItem from="1568121368621" duration="113545000" />
+      <workItem from="1568705704471" duration="8024000" />
+      <workItem from="1568807095190" duration="20787000" />
+      <workItem from="1568979015643" duration="39691000" />
+      <workItem from="1569303904113" duration="133917000" />
+      <workItem from="1569909947931" duration="19283000" />
+      <workItem from="1570069396703" duration="724000" />
+      <workItem from="1570529775580" duration="7550000" />
+      <workItem from="1570722183109" duration="31327000" />
+      <workItem from="1571105574211" duration="713000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="134039000" />
+    <option name="totallyTimeSpent" value="679746000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8565815" visible="true" weight="0.17560321" />
-      <window_info id="Structure" order="1" sideWeight="0.14341846" side_tool="true" visible="true" weight="0.17560321" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8552822" visible="true" weight="0.22922252" />
+      <window_info id="Structure" order="1" sideWeight="0.1447178" side_tool="true" visible="true" weight="0.22922252" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49865952" visible="true" weight="0.2633864" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.28364688" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49731904" weight="0.13748191" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.23444283" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -406,16 +672,43 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5013405" side_tool="true" weight="0.29377714" />
-      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49932975" weight="0.2170767" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50268096" side_tool="true" weight="0.276411" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49865952" weight="0.2170767" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info active="true" anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.35924932" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.0040214476" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info anchor="right" id="Database" order="5" />
       <window_info anchor="right" id="Maven Projects" order="6" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8432836" visible="true" weight="0.18230563" />
+      <window_info id="Structure" order="1" sideWeight="0.15671642" side_tool="true" weight="0.17426273" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49731904" visible="true" weight="0.276411" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3082489" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="CheckStyle" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50268096" side_tool="true" visible="true" weight="0.276411" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49865952" weight="0.2170767" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.35924932" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -423,376 +716,906 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/gangbin/Company/携程/Main2.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/gangbin/Company/携程/Main2.java</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/gangbin/Company/携程/Main2.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/gangbin/Company/携程/Main4.java</url>
+          <line>13</line>
+          <properties />
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/gangbin/Company/携程/Main4.java</url>
+          <line>15</line>
+          <properties />
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/gangbin/Company/携程/Main4.java</url>
+          <line>18</line>
+          <properties />
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/gangbin/Company/爱奇艺/Main.java</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/gangbin/Company/爱奇艺/Main.java</url>
+          <line>60</line>
+          <properties />
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/gangbin/Company/爱奇艺/Main.java</url>
+          <line>61</line>
+          <properties />
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/gangbin/Company/爱奇艺/Main.java</url>
+          <line>38</line>
+          <properties />
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/gangbin/Company/爱奇艺/Main.java</url>
+          <line>43</line>
+          <properties />
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/gangbin/Company/爱奇艺/Main.java</url>
+          <line>48</line>
+          <properties />
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/gangbin/Company/爱奇艺/Main.java</url>
+          <line>52</line>
+          <properties />
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/gangbin/Company/爱奇艺/Main.java</url>
+          <line>40</line>
+          <properties />
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/gangbin/Company/爱奇艺/Main.java</url>
+          <line>44</line>
+          <properties />
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/gangbin/Company/爱奇艺/Main.java</url>
+          <line>45</line>
+          <properties />
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/gangbin/Company/爱奇艺/Main.java</url>
+          <line>50</line>
+          <properties />
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/gangbin/Company/爱奇艺/Main.java</url>
+          <line>49</line>
+          <properties />
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/gangbin/Company/字节跳动/Main.java</url>
+          <line>43</line>
+          <properties />
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/gangbin/Company/字节跳动/Main.java</url>
+          <line>51</line>
+          <properties />
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/gangbin/Company/字节跳动/Main.java</url>
+          <line>52</line>
+          <properties />
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/gangbin/Company/字节跳动/Main.java</url>
+          <line>53</line>
+          <properties />
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/gangbin/Company/字节跳动/Main.java</url>
+          <line>55</line>
+          <properties />
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/gangbin/Company/字节跳动/Main.java</url>
+          <line>41</line>
+          <properties />
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/gangbin/Company/字节跳动/Main.java</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/gangbin/Others/两个排序数组的第k个数.java</url>
+          <line>12</line>
+          <properties />
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/gangbin/Others/两个排序数组的第k个数.java</url>
+          <line>11</line>
+          <properties />
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/gangbin/Others/两个排序数组的第k个数.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/gangbin/Company/bilibili/Main2.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/gangbin/Company/bilibili/Main2.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="82" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/gangbin/Company/bilibili/Main2.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="83" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/gangbin/Company/bilibili/Main2.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/gangbin/Company/流利说/Main.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/gangbin/Company/流利说/Main.java</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="86" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/gangbin/Company/流利说/Main.java</url>
+          <line>36</line>
+          <properties />
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/gangbin/Company/流利说/Main.java</url>
+          <line>39</line>
+          <properties />
+          <option name="timeStamp" value="88" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/gangbin/Company/流利说/Main.java</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="89" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/gangbin/Company/流利说/Main.java</url>
+          <line>69</line>
+          <properties />
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/gangbin/Company/流利说/Main.java</url>
+          <line>72</line>
+          <properties />
+          <option name="timeStamp" value="91" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/gangbin/Others/接受消息打印消息.java</url>
+          <line>34</line>
+          <properties />
+          <option name="timeStamp" value="118" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/gangbin/Others/接受消息打印消息.java</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="119" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/gangbin/Others/接受消息打印消息.java</url>
+          <line>48</line>
+          <properties />
+          <option name="timeStamp" value="120" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/gangbin/Others/接受消息打印消息.java</url>
+          <line>43</line>
+          <properties />
+          <option name="timeStamp" value="122" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/gangbin/Others/接受消息打印消息.java</url>
+          <line>37</line>
+          <properties />
+          <option name="timeStamp" value="123" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/gangbin/Others/旋转数组找数.java</url>
+          <line>38</line>
+          <properties />
+          <option name="timeStamp" value="124" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/gangbin/Others/出现1的次数.java</url>
+          <line>47</line>
+          <properties />
+          <option name="timeStamp" value="126" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/gangbin/Others/有几个0.java</url>
+          <line>14</line>
+          <properties />
+          <option name="timeStamp" value="129" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/gangbin/Others/旋转数组找数.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="130" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/gangbin/Others/旋转数组找数.java</url>
+          <line>14</line>
+          <properties />
+          <option name="timeStamp" value="131" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/gangbin/ArrayAndMatrix/第一个未出现正整数.java</url>
+          <line>10</line>
+          <properties />
+          <option name="timeStamp" value="135" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/gangbin/字节跳动/Main3.java</url>
+          <line>84</line>
+          <properties />
+          <option name="timeStamp" value="136" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/gangbin/字节跳动/Main3.java</url>
+          <line>89</line>
+          <properties />
+          <option name="timeStamp" value="137" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/gangbin/Others/是否是回文数.java</url>
+          <line>32</line>
+          <properties />
+          <option name="timeStamp" value="140" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/gangbin/Others/是否是回文数.java</url>
+          <line>18</line>
+          <properties />
+          <option name="timeStamp" value="141" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/gangbin/字节跳动/Main.java</url>
+          <line>48</line>
+          <properties />
+          <option name="timeStamp" value="142" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/加油站问题.java</url>
+          <line>13</line>
+          <properties />
+          <option name="timeStamp" value="146" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/加油站问题.java</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="148" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/获得子集.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="170" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/gangbin/Company/腾讯2019/Main.java</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="171" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/gangbin/Company/腾讯2019/Main.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="172" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/gangbin/Company/腾讯2019/Main.java</url>
+          <line>32</line>
+          <properties />
+          <option name="timeStamp" value="173" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/gangbin/Company/腾讯2019/Main41.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="174" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/无重复字符的最长子串.java</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="177" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/无重复字符的最长子串.java</url>
+          <line>19</line>
+          <properties />
+          <option name="timeStamp" value="178" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/环形最大子数组.java</url>
+          <line>11</line>
+          <properties />
+          <option name="timeStamp" value="179" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/硬币数.java</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="180" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/gangbin/Company/vivo/Main.java</url>
+          <line>50</line>
+          <properties />
+          <option name="timeStamp" value="181" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/gangbin/Company/vivo/Main2.java</url>
+          <line>42</line>
+          <properties />
+          <option name="timeStamp" value="182" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/gangbin/Company/vivo/Main2.java</url>
+          <line>43</line>
+          <properties />
+          <option name="timeStamp" value="183" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/gangbin/Company/vivo/Main2.java</url>
+          <line>53</line>
+          <properties />
+          <option name="timeStamp" value="184" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/gangbin/Company/vivo/Main2.java</url>
+          <line>54</line>
+          <properties />
+          <option name="timeStamp" value="185" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/化简分数.java</url>
+          <line>19</line>
+          <properties />
+          <option name="timeStamp" value="186" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/合并链表.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="187" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/合并链表.java</url>
+          <line>10</line>
+          <properties />
+          <option name="timeStamp" value="188" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/指针快排.java</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="191" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/指针快排.java</url>
+          <line>18</line>
+          <properties />
+          <option name="timeStamp" value="192" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/删除无效括号.java</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="193" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/岛屿数量.java</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="194" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/滑动窗口.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="196" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/gangbin/Company/网易互娱/Main.java</url>
+          <line>16</line>
+          <properties />
+          <option name="timeStamp" value="197" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/gangbin/Company/云从/Main3.java</url>
+          <line>12</line>
+          <properties />
+          <option name="timeStamp" value="198" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/gangbin/Company/云从/Main3.java</url>
+          <line>42</line>
+          <properties />
+          <option name="timeStamp" value="199" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/没出现的数字.java</url>
+          <line>16</line>
+          <properties />
+          <option name="timeStamp" value="200" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/求1的个数.java</url>
+          <line>19</line>
+          <properties />
+          <option name="timeStamp" value="204" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/拆分为单调数组.java</url>
+          <line>12</line>
+          <properties />
+          <option name="timeStamp" value="208" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/gangbin/Tree/LowestAncestor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gangbin/Tree/LowestAncestor2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gangbin/Tree/PPNode.java">
+    <entry file="file://$PROJECT_DIR$/src/com/gangbin/LinkedList/Node.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
-          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gangbin/Tree/TreeNode.java">
+    <entry file="file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/拆分为单调数组.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="5" selection-start-line="3" selection-start-column="3" selection-end-line="11" selection-end-column="5" />
+        <state relative-caret-position="361">
+          <caret line="19" column="28" lean-forward="true" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gangbin/Company/字节跳动/Main3.java">
+    <entry file="file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/成绩单.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-419">
-          <caret line="20" column="19" lean-forward="true" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+        <state relative-caret-position="213">
+          <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gangbin/Company/字节跳动/Main4.java">
+    <entry file="file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/火星文字.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="31" column="61" lean-forward="true" selection-start-line="31" selection-start-column="61" selection-end-line="31" selection-end-column="61" />
+        <state relative-caret-position="-376">
+          <caret line="56" column="3" selection-start-line="56" selection-start-column="3" selection-end-line="63" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gangbin/Company/字节跳动/Main2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gangbin/Company/贝壳找房/Main4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-494">
-          <caret line="13" column="9" lean-forward="true" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gangbin/Company/字节跳动/Main1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="21" lean-forward="true" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gangbin/Company/贝壳找房/Main3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="603">
-          <caret line="35" column="27" lean-forward="true" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gangbin/Tree/ContainsTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gangbin/Tree/PreAndInAndPostRecur.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="888">
-          <caret line="120" column="9" selection-start-line="120" selection-start-column="9" selection-end-line="120" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gangbin/Tree/NextNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gangbin/Company/腾讯/BlackAndWhite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="17" column="16" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gangbin/String/Sunday算法/SundayTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="39" lean-forward="true" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/softwares/JavaJdk/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="676" column="17" selection-start-line="676" selection-start-column="17" selection-end-line="676" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gangbin/Company/腾讯/ChangeColor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gangbin/Company/腾讯/CountString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="836">
-          <caret line="46" column="63" selection-start-line="46" selection-start-column="63" selection-end-line="46" selection-end-column="63" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/softwares/JavaJdk/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7619">
-          <caret line="456" column="24" selection-start-line="456" selection-start-column="24" selection-end-line="456" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gangbin/Company/奇虎360/Main2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gangbin/String/返回最长有效括号串/BracketString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="950">
-          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/softwares/JavaJdk/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="1260" column="30" selection-start-line="1260" selection-start-column="30" selection-end-line="1260" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/softwares/JavaJdk/src.zip!/java/util/PriorityQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="121" column="11" selection-start-line="121" selection-start-column="11" selection-end-line="121" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/softwares/JavaJdk/src.zip!/java/util/concurrent/atomic/AtomicStampedReference.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="153" column="43" lean-forward="true" selection-start-line="153" selection-start-column="43" selection-end-line="153" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/softwares/JavaJdk/jre/lib/rt.jar!/sun/nio/ch/ThreadPool.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gangbin/String/字符0旁边必须有1的字符串数量/Every0Has1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gangbin/String/添加最少字符得到回文串/AddLeastCharToGetPalindrome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="50" column="9" lean-forward="true" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gangbin/Company/奇虎360/Main1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gangbin/String/KMS算法/KMSTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="931">
-          <caret line="49" column="16" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gangbin/Company/分发糖果/Candy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gangbin/String/在有序但含有空的数组中查找字符串/FindStringInArrayWithNull.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gangbin/Company/小红书/Main5.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gangbin/Company/小红书/Main4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="28" column="28" lean-forward="true" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gangbin/Company/小红书/Main3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gangbin/Company/小红书/Main2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="34" lean-forward="true" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gangbin/DynamicPlanning/换钱的组合数和购物/Main1.java">
+    <entry file="file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/播放列表数量.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <caret line="9" column="37" lean-forward="true" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gangbin/DynamicPlanning/矩阵最小路径和/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gangbin/DynamicPlanning/斐波那契数列/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="950">
-          <caret line="50" column="5" lean-forward="true" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gangbin/DynamicPlanning/矩阵最小路径和/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gangbin/Company/小红书/Main1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gangbin/Other/整数的次方/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gangbin/Other/二分查找算法/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gangbin/DynamicPlanning/换钱的最少货币数/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="80" column="32" lean-forward="true" selection-start-line="80" selection-start-column="32" selection-end-line="80" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gangbin/DynamicPlanning/汉诺塔问题/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="76" column="9" lean-forward="true" selection-start-line="76" selection-start-column="9" selection-end-line="76" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gangbin/DynamicPlanning/最长递增子序列/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/重排列为2的幂方.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
-          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+          <caret line="14" column="34" lean-forward="true" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/将排序树转为循环双向链表.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="50" column="5" lean-forward="true" selection-start-line="23" selection-start-column="3" selection-end-line="50" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/均值拆分数组.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="41" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/形成唯一数组.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/最大搜索树.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="779">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/分割数组相等.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/移动数组最大目标.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/乘法表中第k小的数字.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gangbin/Company/有赞/Main1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" selection-start-line="2" selection-end-line="33" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gangbin/Company/有赞/Main2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/消消乐.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-342">
+          <caret line="24" column="11" lean-forward="true" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/打家劫舍2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="818">
+          <caret line="51" column="5" lean-forward="true" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/softwares/JavaJdk/src.zip!/java/util/concurrent/ConcurrentHashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="2617" column="49" lean-forward="true" selection-start-line="2617" selection-start-column="49" selection-end-line="2617" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gangbin/Bit/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="23" selection-end-column="1" />
+          <folding>
+            <element signature="e#373#374#0" expanded="true" />
+            <element signature="e#409#410#0" expanded="true" />
+            <element signature="e#510#511#0" expanded="true" />
+            <element signature="e#554#555#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gangbin/Company/拼多多2019/Main1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gangbin/Company/拼多多2019/Main2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="33" column="11" lean-forward="true" selection-start-line="33" selection-start-column="11" selection-end-line="33" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gangbin/Company/拼多多2019/Main4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-133">
+          <caret line="19" column="30" lean-forward="true" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gangbin/Company/拼多多2019/Main5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="44" lean-forward="true" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gangbin/网络编程/多线程模式/ClientThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="35" column="44" lean-forward="true" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gangbin/网络编程/多线程模式/MyClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gangbin/网络编程/多线程模式/ServerThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="62" column="9" lean-forward="true" selection-start-line="53" selection-start-column="8" selection-end-line="62" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gangbin/网络编程/多线程模式/MyServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-31">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="32" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/文件搜集/疯狂Java讲义代码/codes/17/17.3/MultiThread/server/MyServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gangbin/网络编程/NIO模式/NServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gangbin/网络编程/AIO模式/SimpleAIOServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="38" column="47" lean-forward="true" selection-start-line="37" selection-start-column="16" selection-end-line="38" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gangbin/网络编程/NIO模式/NClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gangbin/网络编程/AIO模式/SimpleAIOClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="23" column="52" lean-forward="true" selection-start-line="23" selection-start-column="52" selection-end-line="23" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gangbin/网络编程/AIO模式2/AIOClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1307">
+          <caret line="94" column="53" lean-forward="true" selection-start-line="94" selection-start-column="53" selection-end-line="94" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gangbin/网络编程/AIO模式2/AIOServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-73">
+          <caret line="44" column="8" lean-forward="true" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gangbin/动态代理/Human.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gangbin/动态代理/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+          <folding>
+            <element signature="e#184#185#0" expanded="true" />
+            <element signature="e#216#217#0" expanded="true" />
+            <element signature="e#191#192#0" expanded="true" />
+            <element signature="e#227#228#0" expanded="true" />
+            <element signature="e#365#366#0" expanded="true" />
+            <element signature="e#401#402#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gangbin/实现HashMap.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/gangbin/动态代理/ProxyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://F:/文件搜集/编程学习/左程云算法代码/程序员代码面试指南-代码/BookCode/src/chapter_4_recursionanddp/Problem_06_HanoiProblem.java">
+    <entry file="file://$PROJECT_DIR$/src/com/gangbin/实现HashMap/MapTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="82" column="1" lean-forward="true" selection-start-line="2" selection-end-line="82" selection-end-column="1" />
+        <state relative-caret-position="228">
+          <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gangbin/DynamicPlanning/最长公共子序列/Main.java">
+    <entry file="jar://D:/softwares/JavaJdk/src.zip!/java/util/HashMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-225">
-          <caret line="17" column="34" lean-forward="true" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+        <state relative-caret-position="3482">
+          <caret line="585" lean-forward="true" selection-start-line="585" selection-end-line="585" />
         </state>
       </provider>
     </entry>
-    <entry file="file://F:/文件搜集/编程学习/左程云算法代码/程序员代码面试指南-代码/BookCode/src/chapter_4_recursionanddp/Problem_08_LCSubstring.java">
+    <entry file="file://$PROJECT_DIR$/src/com/gangbin/实现HashMap/MyHashMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="90" column="5" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="90" selection-end-column="5" />
+        <state relative-caret-position="-475">
+          <caret line="69" column="26" lean-forward="true" selection-start-line="69" selection-start-column="26" selection-end-line="69" selection-end-column="26" />
+          <folding>
+            <element signature="e#2646#2647#0" expanded="true" />
+            <element signature="e#2672#2673#0" expanded="true" />
+            <element signature="e#2704#2705#0" expanded="true" />
+            <element signature="e#2732#2733#0" expanded="true" />
+            <element signature="e#1394#1395#0" expanded="true" />
+            <element signature="e#1448#1449#0" expanded="true" />
+            <element signature="e#388#389#0" expanded="true" />
+            <element signature="e#421#422#0" expanded="true" />
+            <element signature="e#452#453#0" expanded="true" />
+            <element signature="e#487#488#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gangbin/String/LowestString.java">
+    <entry file="file://$PROJECT_DIR$/src/com/gangbin/Company/拼多多2019/Main3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="22" lean-forward="true" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        <state relative-caret-position="950">
+          <caret line="50" column="22" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gangbin/String/最长无重复的子串/LongestUnique.java">
+    <entry file="file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/验证搜索树.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="399">
+          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gangbin/DynamicPlanning/最长公共子串问题/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/过桥问题.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="48" column="18" lean-forward="true" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="18" />
+        <state relative-caret-position="741">
+          <caret line="43" column="29" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/车队问题.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/路径总数3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/计算表面积.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="28" column="39" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/计算24点.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="817">
+          <caret line="43" column="25" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/获得子集.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/链表相交.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/股票问题6个问题.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="640">
+          <caret line="90" column="17" selection-start-line="90" selection-start-column="17" selection-end-line="90" selection-end-column="17" />
         </state>
       </provider>
     </entry>
