@@ -28,7 +28,7 @@ class LRUCache1 extends LinkedHashMap<Integer, Integer> {
 
     @Override
     protected boolean removeEldestEntry(Map.Entry<Integer, Integer> eldest) {
-        return size() > capacity;
+        return size()>capacity;
     }
 }
 
@@ -74,15 +74,15 @@ class LRUCache {
 public class LRU实现 {
 
     public static void main(String[] args) {
-          LRUCache obj = new LRUCache(2);
-          System.out.println(obj.get(1));
+          LRUCache1 obj = new LRUCache1(2);
+       //   System.out.println(obj.get(1)+" "+obj.size());
           obj.put(1,1);
-        System.out.println(obj.get(1));
+       // System.out.println(obj.get(1)+" "+obj.size());
         obj.put(2,2);
-        System.out.println(obj.get(1));
+        System.out.println(obj.get(1)+" "+obj.size());
         obj.put(3,3);
-        System.out.println(obj.get(1));
-        obj.put(2,4);
-        System.out.println(obj.get(2));
+        System.out.println(obj.get(2)+" "+obj.size());
+        obj.put(4,4);
+        System.out.println(obj.get(1)+" "+obj.size());
     }
 }
