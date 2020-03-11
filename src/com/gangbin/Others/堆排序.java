@@ -55,12 +55,11 @@ public class 堆排序 {
             right=index*2+2;
         }
     }
-    //从小到大打印，会改变原数组
+    //从大到小打印
     public static void print(int[] arr){
         int size=arr.length;
         int index=0;
         while(size>0){
-
             swap(arr,0,size-1);
             size--;
             adjust(arr,0,size);
@@ -68,7 +67,7 @@ public class 堆排序 {
         System.out.print(Arrays.toString(arr));
     }
 
-    //插入一个数
+    //小顶堆插入一个数
     public static void  add(int[] arr, int val){
         if(arr[0]>=val){
             return;
@@ -81,14 +80,10 @@ public class 堆排序 {
 
     public static void main(String[] args) {
         int[] arr={10,1,8,2,6,7,4,0};
-//        buildHeap(arr);
-//        add(arr,5);
-//        print(arr);
-        int i=0;
-        i=i+2;
-        int j=i;
-        System.out.println(j);
-        System.out.println(Arrays.toString(arr));
+        buildHeap(arr);
+        add(arr,5);
+        print(arr);
+        //System.out.println(Arrays.toString(arr));
 
     }
 }

@@ -3,8 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="f4e02e62-2d8a-474c-947a-9bbaa2555372" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gangbin/leetcode题目/LRU实现.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gangbin/leetcode题目/LRU实现.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gangbin/leetcode题目/最大搜索树.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gangbin/leetcode题目/最大搜索树.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gangbin/Others/堆排序.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gangbin/Others/堆排序.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gangbin/leetcode题目/三路快排.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gangbin/leetcode题目/三路快排.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gangbin/leetcode题目/搜索单词.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gangbin/leetcode题目/搜索单词.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gangbin/leetcode题目/最长的斐波那契数列.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gangbin/leetcode题目/最长的斐波那契数列.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,27 +31,28 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="458" />
+          <entry key="JAVA" value="501" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="140413" />
+          <entry key="JAVA" value="158479" />
           <entry key="PLAIN_TEXT" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="25" />
+          <entry key="project.closed" value="37" />
           <entry key="project.open.time.0" value="4" />
-          <entry key="project.open.time.1" value="6" />
+          <entry key="project.open.time.1" value="10" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.2" value="2" />
-          <entry key="project.open.time.5" value="5" />
-          <entry key="project.open.time.6" value="7" />
+          <entry key="project.open.time.5" value="8" />
+          <entry key="project.open.time.6" value="11" />
           <entry key="project.open.time.7" value="3" />
-          <entry key="project.opened" value="29" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="41" />
         </counts>
       </usages-collector>
     </session>
@@ -57,94 +60,31 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/最长的斐波那契数列.java">
+        <entry file="file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/排行榜.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+            <state relative-caret-position="570">
+              <caret line="30" column="14" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/回文链表.java">
+        <entry file="file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/数组中出现两次的数.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="27" column="41" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/滑动窗口最大值.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="760">
-              <caret line="42" column="36" selection-start-line="42" selection-start-column="11" selection-end-line="42" selection-end-column="36" />
+            <state relative-caret-position="157">
+              <caret line="45" column="32" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/最多包含两个不同字符的最长子串.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="33" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/找到众数.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="23" column="2" selection-start-line="23" selection-start-column="2" selection-end-line="26" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/求众数2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="32" column="25" lean-forward="true" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/拆分单词.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-5">
-              <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/唯一最短的单词缩写.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="30" column="25" lean-forward="true" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/搜索单词.java">
+        <entry file="file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/数组分为三个相等部分.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+            <state relative-caret-position="-99">
+              <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="34" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -164,6 +104,10 @@
       <find>size()</find>
       <find>MIN_TREEIFY_CAPACITY</find>
       <find>kc</find>
+      <find>offer</find>
+      <find>removeAt</find>
+      <find>heapify</find>
+      <find>poll</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -172,49 +116,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/gangbin/leetcode题目/移动数组最大目标.java" />
-        <option value="$PROJECT_DIR$/src/com/gangbin/leetcode题目/乘法表中第k小的数字.java" />
-        <option value="$PROJECT_DIR$/src/com/gangbin/Company/有赞/Main1.java" />
-        <option value="$PROJECT_DIR$/src/com/gangbin/Company/有赞/Main2.java" />
-        <option value="$PROJECT_DIR$/src/com/gangbin/leetcode题目/消消乐.java" />
-        <option value="$PROJECT_DIR$/src/com/gangbin/Bit/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/gangbin/网络编程/多线程模式/ClientThread.java" />
-        <option value="$PROJECT_DIR$/src/com/gangbin/网络编程/多线程模式/MyClient.java" />
-        <option value="$PROJECT_DIR$/src/com/gangbin/网络编程/多线程模式/MyServer.java" />
-        <option value="$PROJECT_DIR$/src/com/gangbin/网络编程/NIO模式/NClient.java" />
-        <option value="$PROJECT_DIR$/src/com/gangbin/网络编程/NIO模式/NServer.java" />
-        <option value="$PROJECT_DIR$/src/com/gangbin/网络编程/AIO模式/SimpleAIOClient.java" />
-        <option value="$PROJECT_DIR$/src/com/gangbin/网络编程/AIO模式/SimpleAIOServer.java" />
-        <option value="$PROJECT_DIR$/src/com/gangbin/网络编程/AIO模式2/AIOServer.java" />
-        <option value="$PROJECT_DIR$/src/com/gangbin/动态代理/Human.java" />
-        <option value="$PROJECT_DIR$/src/com/gangbin/动态代理/Person.java" />
-        <option value="$PROJECT_DIR$/src/com/gangbin/动态代理/ProxyTest.java" />
-        <option value="$PROJECT_DIR$/src/com/gangbin/实现HashMap.java" />
-        <option value="$PROJECT_DIR$/src/com/gangbin/实现HashMap/MapTest.java" />
-        <option value="$PROJECT_DIR$/src/com/gangbin/实现HashMap/MyHashMap.java" />
-        <option value="$PROJECT_DIR$/src/com/gangbin/Company/拼多多2019/Main3.java" />
-        <option value="$PROJECT_DIR$/src/com/gangbin/leetcode题目/验证搜索树.java" />
-        <option value="$PROJECT_DIR$/src/com/gangbin/leetcode题目/分割数组.java" />
-        <option value="$PROJECT_DIR$/src/com/gangbin/leetcode题目/LRU实现.java" />
-        <option value="$PROJECT_DIR$/src/com/gangbin/leetcode题目/字典序排序.java" />
-        <option value="$PROJECT_DIR$/src/com/gangbin/leetcode题目/唯一数组.java" />
-        <option value="$PROJECT_DIR$/src/com/gangbin/leetcode题目/反转链表从m到n.java" />
-        <option value="$PROJECT_DIR$/src/com/gangbin/leetcode题目/轮流取数字的游戏.java" />
-        <option value="$PROJECT_DIR$/src/com/gangbin/leetcode题目/最大二叉平衡数.java" />
-        <option value="$PROJECT_DIR$/src/com/gangbin/leetcode题目/最大搜索树.java" />
-        <option value="$PROJECT_DIR$/src/com/gangbin/多线程/DeadLock.java" />
-        <option value="$PROJECT_DIR$/src/com/gangbin/设计模式/单例模式.java" />
-        <option value="$PROJECT_DIR$/src/com/gangbin/设计模式/工厂模式.java" />
-        <option value="$PROJECT_DIR$/src/com/gangbin/设计模式/建造者模式.java" />
-        <option value="$PROJECT_DIR$/src/com/gangbin/设计模式/静态代理模式.java" />
-        <option value="$PROJECT_DIR$/src/com/gangbin/多线程/JoinTest.java" />
-        <option value="$PROJECT_DIR$/src/com/gangbin/leetcode题目/二叉树最近祖先.java" />
-        <option value="$PROJECT_DIR$/src/com/gangbin/leetcode题目/会议室问题2.java" />
         <option value="$PROJECT_DIR$/src/com/gangbin/leetcode题目/三个递增子序列.java" />
         <option value="$PROJECT_DIR$/src/com/gangbin/leetcode题目/最大整数.java" />
         <option value="$PROJECT_DIR$/src/com/gangbin/leetcode题目/划分字母区间.java" />
         <option value="$PROJECT_DIR$/src/com/gangbin/leetcode题目/俄罗斯套娃信封.java" />
-        <option value="$PROJECT_DIR$/src/com/gangbin/leetcode题目/最长的斐波那契数列.java" />
         <option value="$PROJECT_DIR$/src/com/gangbin/leetcode题目/回文链表.java" />
         <option value="$PROJECT_DIR$/src/com/gangbin/leetcode题目/滑动窗口最大值.java" />
         <option value="$PROJECT_DIR$/src/com/gangbin/leetcode题目/最多包含两个不同字符的最长子串.java" />
@@ -223,6 +128,45 @@
         <option value="$PROJECT_DIR$/src/com/gangbin/leetcode题目/拆分单词.java" />
         <option value="$PROJECT_DIR$/src/com/gangbin/leetcode题目/唯一最短的单词缩写.java" />
         <option value="$PROJECT_DIR$/src/com/gangbin/leetcode题目/搜索单词.java" />
+        <option value="$PROJECT_DIR$/src/com/gangbin/leetcode题目/最长公共子数组.java" />
+        <option value="$PROJECT_DIR$/src/com/gangbin/leetcode题目/从字符串得到二叉树.java" />
+        <option value="$PROJECT_DIR$/src/com/gangbin/leetcode题目/乘积小于100的子数组.java" />
+        <option value="$PROJECT_DIR$/src/com/gangbin/leetcode题目/和为k的最长子数组.java" />
+        <option value="$PROJECT_DIR$/src/com/gangbin/leetcode题目/实现一个有限容量阻塞队列.java" />
+        <option value="$PROJECT_DIR$/src/com/gangbin/leetcode题目/判断IP地址.java" />
+        <option value="$PROJECT_DIR$/src/com/gangbin/leetcode题目/最佳观光组合.java" />
+        <option value="$PROJECT_DIR$/src/com/gangbin/leetcode题目/最低票价.java" />
+        <option value="$PROJECT_DIR$/src/com/gangbin/leetcode题目/最长的斐波那契数列.java" />
+        <option value="$PROJECT_DIR$/src/com/gangbin/leetcode题目/链表相加.java" />
+        <option value="$PROJECT_DIR$/src/com/gangbin/leetcode题目/链表相加升级.java" />
+        <option value="$PROJECT_DIR$/src/com/gangbin/Company/小年糕/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/gangbin/Company/小年糕/Main3.java" />
+        <option value="$PROJECT_DIR$/src/com/gangbin/Company/小年糕/Main2.java" />
+        <option value="$PROJECT_DIR$/src/com/gangbin/leetcode题目/复原IP地址.java" />
+        <option value="$PROJECT_DIR$/src/com/gangbin/leetcode题目/哲学家吃饭.java" />
+        <option value="$PROJECT_DIR$/src/com/gangbin/leetcode题目/两个字符串删除.java" />
+        <option value="$PROJECT_DIR$/src/com/gangbin/leetcode题目/香槟酒.java" />
+        <option value="$PROJECT_DIR$/src/com/gangbin/leetcode题目/移动石子.java" />
+        <option value="$PROJECT_DIR$/src/com/gangbin/leetcode题目/移动石子2.java" />
+        <option value="$PROJECT_DIR$/src/com/gangbin/leetcode题目/最长的山脉.java" />
+        <option value="$PROJECT_DIR$/src/com/gangbin/leetcode题目/最长的1的序列.java" />
+        <option value="$PROJECT_DIR$/src/com/gangbin/leetcode题目/倒水的问题.java" />
+        <option value="$PROJECT_DIR$/src/com/gangbin/leetcode题目/最长等差数列.java" />
+        <option value="$PROJECT_DIR$/src/com/gangbin/leetcode题目/字符串查找和替换.java" />
+        <option value="$PROJECT_DIR$/src/com/gangbin/leetcode题目/二叉树右视图.java" />
+        <option value="$PROJECT_DIR$/src/com/gangbin/leetcode题目/三路快排.java" />
+        <option value="$PROJECT_DIR$/src/com/gangbin/Others/堆排序.java" />
+        <option value="$PROJECT_DIR$/src/com/gangbin/leetcode题目/排序数组.java" />
+        <option value="$PROJECT_DIR$/src/com/gangbin/leetcode题目/数组变换.java" />
+        <option value="$PROJECT_DIR$/src/com/gangbin/leetcode题目/移除括号.java" />
+        <option value="$PROJECT_DIR$/src/com/gangbin/leetcode题目/优美子数组.java" />
+        <option value="$PROJECT_DIR$/src/com/gangbin/leetcode题目/交换字符.java" />
+        <option value="$PROJECT_DIR$/src/com/gangbin/leetcode题目/排行榜.java" />
+        <option value="$PROJECT_DIR$/src/com/gangbin/leetcode题目/视频剪辑.java" />
+        <option value="$PROJECT_DIR$/src/com/gangbin/leetcode题目/第N个数字.java" />
+        <option value="$PROJECT_DIR$/src/com/gangbin/leetcode题目/环绕字符串中的子串.java" />
+        <option value="$PROJECT_DIR$/src/com/gangbin/leetcode题目/数组中出现两次的数.java" />
+        <option value="$PROJECT_DIR$/src/com/gangbin/leetcode题目/数组分为三个相等部分.java" />
       </list>
     </option>
   </component>
@@ -233,8 +177,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="10" />
-    <option name="y" value="36" />
+    <option name="x" value="75" />
+    <option name="y" value="105" />
     <option name="width" value="1460" />
     <option name="height" value="1105" />
   </component>
@@ -246,6 +190,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -262,20 +208,12 @@
               <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="gangbin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="gangbin" type="462c0819:PsiDirectoryNode" />
               <item name="leetcode题目" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -283,14 +221,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="a&#9;FILE&#9;file://E:/Gitrepository/Algorithm/src/com/gangbin/leetcode题目/倒水的问题.java&#10;最长&#9;FILE&#9;file://E:/Gitrepository/Algorithm/src/com/gangbin/leetcode题目/最长的斐波那契数列.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../miaosha_idea" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
@@ -320,13 +257,104 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.唯一最短的单词缩写">
-    <configuration name="工厂模式" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gangbin.设计模式.工厂模式" />
+  <component name="RunManager" selected="Application.数组分为三个相等部分">
+    <configuration name="实现一个有限容量阻塞队列" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gangbin.leetcode题目.实现一个有限容量阻塞队列" />
       <module name="AlgorithmExercise" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gangbin.设计模式.*" />
+          <option name="PATTERN" value="com.gangbin.leetcode题目.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="数组分为三个相等部分" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gangbin.leetcode题目.数组分为三个相等部分" />
+      <module name="AlgorithmExercise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gangbin.leetcode题目.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gangbin.Company.小年糕.Main2" />
+      <module name="AlgorithmExercise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gangbin.Company.小年糕.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="第N个数字" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gangbin.leetcode题目.第N个数字" />
+      <module name="AlgorithmExercise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gangbin.leetcode题目.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="优美子数组" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gangbin.leetcode题目.优美子数组" />
+      <module name="AlgorithmExercise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gangbin.leetcode题目.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="最长等差数列" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gangbin.leetcode题目.最长等差数列" />
+      <module name="AlgorithmExercise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gangbin.leetcode题目.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="移除括号" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gangbin.leetcode题目.移除括号" />
+      <module name="AlgorithmExercise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gangbin.leetcode题目.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="三路快排" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gangbin.leetcode题目.三路快排" />
+      <module name="AlgorithmExercise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gangbin.leetcode题目.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -340,19 +368,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.gangbin.leetcode题目.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JoinTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gangbin.多线程.JoinTest" />
-      <module name="AlgorithmExercise" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.gangbin.多线程.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -386,6 +401,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="移动链表" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gangbin.leetcode题目.移动链表" />
+      <module name="AlgorithmExercise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gangbin.leetcode题目.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="硬币数" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.gangbin.leetcode题目.硬币数" />
       <module name="AlgorithmExercise" />
@@ -399,8 +427,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="移动链表" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gangbin.leetcode题目.移动链表" />
+    <configuration name="排序数组" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gangbin.leetcode题目.排序数组" />
+      <module name="AlgorithmExercise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gangbin.leetcode题目.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="数组中出现两次的数" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gangbin.leetcode题目.数组中出现两次的数" />
       <module name="AlgorithmExercise" />
       <extension name="coverage">
         <pattern>
@@ -438,8 +479,60 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="移动石子" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gangbin.leetcode题目.移动石子" />
+      <module name="AlgorithmExercise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gangbin.leetcode题目.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="全排列" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.gangbin.leetcode题目.全排列" />
+      <module name="AlgorithmExercise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gangbin.leetcode题目.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="堆排序" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gangbin.Others.堆排序" />
+      <module name="AlgorithmExercise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gangbin.Others.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="数组变换" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gangbin.leetcode题目.数组变换" />
+      <module name="AlgorithmExercise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gangbin.leetcode题目.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="从字符串得到二叉树" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gangbin.leetcode题目.从字符串得到二叉树" />
       <module name="AlgorithmExercise" />
       <extension name="coverage">
         <pattern>
@@ -464,6 +557,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="排行榜" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gangbin.leetcode题目.排行榜" />
+      <module name="AlgorithmExercise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gangbin.leetcode题目.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="获得子集" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.gangbin.leetcode题目.获得子集" />
       <module name="AlgorithmExercise" />
@@ -477,8 +583,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="排行榜" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gangbin.leetcode题目.排行榜" />
+      <module name="AlgorithmExercise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gangbin.leetcode题目.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="拆分为单调数组" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.gangbin.leetcode题目.拆分为单调数组" />
+      <module name="AlgorithmExercise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gangbin.leetcode题目.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="最长的山脉" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gangbin.leetcode题目.最长的山脉" />
       <module name="AlgorithmExercise" />
       <extension name="coverage">
         <pattern>
@@ -509,6 +641,32 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.gangbin.Others.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="视频剪辑" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gangbin.leetcode题目.视频剪辑" />
+      <module name="AlgorithmExercise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gangbin.leetcode题目.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="倒水的问题" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gangbin.leetcode题目.倒水的问题" />
+      <module name="AlgorithmExercise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gangbin.leetcode题目.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -556,15 +714,17 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.工厂模式" />
-      <item itemvalue="Application.JoinTest" />
-      <item itemvalue="Application.唯一最短的单词缩写" />
+      <item itemvalue="Application.实现一个有限容量阻塞队列" />
+      <item itemvalue="Application.Main2" />
+      <item itemvalue="Application.第N个数字" />
+      <item itemvalue="Application.数组分为三个相等部分" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.唯一最短的单词缩写" />
-        <item itemvalue="Application.JoinTest" />
-        <item itemvalue="Application.工厂模式" />
+        <item itemvalue="Application.数组分为三个相等部分" />
+        <item itemvalue="Application.第N个数字" />
+        <item itemvalue="Application.实现一个有限容量阻塞队列" />
+        <item itemvalue="Application.Main2" />
       </list>
     </recent_temporary>
   </component>
@@ -607,38 +767,54 @@
       <workItem from="1571105574211" duration="713000" />
       <workItem from="1571117196539" duration="35260000" />
       <workItem from="1571402304573" duration="17975000" />
-      <workItem from="1571641393963" duration="9068000" />
+      <workItem from="1571641393963" duration="10471000" />
+      <workItem from="1571712061904" duration="8573000" />
+      <workItem from="1571807896405" duration="28805000" />
+      <workItem from="1572181769458" duration="8140000" />
+      <workItem from="1572320713609" duration="5787000" />
+      <workItem from="1572484889717" duration="10098000" />
+      <workItem from="1572571630356" duration="17405000" />
+      <workItem from="1572706414359" duration="2343000" />
+      <workItem from="1572744692800" duration="15476000" />
+      <workItem from="1572840913154" duration="2935000" />
+      <workItem from="1573018671312" duration="4807000" />
+      <workItem from="1573106574881" duration="5484000" />
+      <workItem from="1583911526655" duration="1297000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="742049000" />
+    <option name="totallyTimeSpent" value="854602000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8503788" visible="true" weight="0.23927614" />
-      <window_info id="Structure" order="1" sideWeight="0.14962122" side_tool="true" visible="true" weight="0.23927614" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8247012" visible="true" weight="0.19369973" />
+      <window_info id="Structure" order="1" sideWeight="0.17529881" side_tool="true" visible="true" weight="0.19369973" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Stack trace to UML" show_stripe_button="false" side_tool="true" />
+      <window_info anchor="bottom" id="Sequence" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49731904" visible="true" weight="0.23589002" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.35311145" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49731904" visible="true" weight="0.26284876" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.276411" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="CheckStyle" order="7" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.10998553" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.31982633" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50268096" side_tool="true" weight="0.276411" />
       <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49865952" weight="0.2170767" />
+      <window_info anchor="right" id="PlantUML" />
+      <window_info anchor="right" id="Codota" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.0040214476" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.010723861" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info anchor="right" id="Database" order="5" />
@@ -1221,348 +1397,62 @@
           <properties />
           <option name="timeStamp" value="225" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/判断IP地址.java</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="227" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/判断IP地址.java</url>
+          <line>13</line>
+          <properties />
+          <option name="timeStamp" value="228" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/复原IP地址.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="230" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/最长的山脉.java</url>
+          <line>11</line>
+          <properties />
+          <option name="timeStamp" value="233" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/数组变换.java</url>
+          <line>16</line>
+          <properties />
+          <option name="timeStamp" value="236" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/优美子数组.java</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="239" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/视频剪辑.java</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="241" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/数组中出现两次的数.java</url>
+          <line>43</line>
+          <properties />
+          <option name="timeStamp" value="242" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/gangbin/动态代理/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-          <folding>
-            <element signature="e#184#185#0" expanded="true" />
-            <element signature="e#216#217#0" expanded="true" />
-            <element signature="e#191#192#0" expanded="true" />
-            <element signature="e#227#228#0" expanded="true" />
-            <element signature="e#365#366#0" expanded="true" />
-            <element signature="e#401#402#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gangbin/实现HashMap.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/gangbin/动态代理/ProxyTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gangbin/实现HashMap/MapTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/softwares/JavaJdk/src.zip!/java/util/HashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3482">
-          <caret line="585" lean-forward="true" selection-start-line="585" selection-end-line="585" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gangbin/实现HashMap/MyHashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-475">
-          <caret line="69" column="26" lean-forward="true" selection-start-line="69" selection-start-column="26" selection-end-line="69" selection-end-column="26" />
-          <folding>
-            <element signature="e#2646#2647#0" expanded="true" />
-            <element signature="e#2672#2673#0" expanded="true" />
-            <element signature="e#2704#2705#0" expanded="true" />
-            <element signature="e#2732#2733#0" expanded="true" />
-            <element signature="e#1394#1395#0" expanded="true" />
-            <element signature="e#1448#1449#0" expanded="true" />
-            <element signature="e#388#389#0" expanded="true" />
-            <element signature="e#421#422#0" expanded="true" />
-            <element signature="e#452#453#0" expanded="true" />
-            <element signature="e#487#488#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gangbin/Company/拼多多2019/Main3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="950">
-          <caret line="50" column="22" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/验证搜索树.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/车队问题.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/路径总数3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/计算表面积.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="28" column="39" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/计算24点.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="817">
-          <caret line="43" column="25" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/获得子集.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/链表相交.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/股票问题6个问题.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="77" column="28" lean-forward="true" selection-start-line="77" selection-start-column="28" selection-end-line="77" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/过桥问题.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="43" column="29" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/分割数组.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/LRU实现.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
-          <folding>
-            <element signature="e#664#665#0" expanded="true" />
-            <element signature="e#702#703#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/字典序排序.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/唯一数组.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="24" column="35" lean-forward="true" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/反转链表从m到n.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/轮流取数字的游戏.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="46" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/最大二叉平衡数.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/gangbin/多线程/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/gangbin/多线程/DeadLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="29" column="19" lean-forward="true" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gangbin/设计模式/单例模式.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="703">
-          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
-          <folding>
-            <element signature="e#213#214#0" expanded="true" />
-            <element signature="e#244#245#0" expanded="true" />
-            <element signature="e#386#387#0" expanded="true" />
-            <element signature="e#415#416#0" expanded="true" />
-            <element signature="e#895#896#0" expanded="true" />
-            <element signature="e#925#926#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/最大搜索树.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="734">
-          <caret line="65" column="5" lean-forward="true" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/softwares/JavaJdk/src.zip!/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="382" lean-forward="true" selection-start-line="382" selection-end-line="382" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gangbin/设计模式/工厂模式.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-          <folding>
-            <element signature="e#251#252#0" expanded="true" />
-            <element signature="e#299#300#0" expanded="true" />
-            <element signature="e#395#396#0" expanded="true" />
-            <element signature="e#443#444#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/会议室问题2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/softwares/JavaJdk/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="1326" selection-start-line="1326" selection-end-line="1326" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/二叉树最近祖先.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="24" column="48" lean-forward="true" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gangbin/多线程/JoinTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gangbin/设计模式/静态代理模式.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="48" column="12" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
-          <folding>
-            <element signature="e#380#381#0" expanded="true" />
-            <element signature="e#429#430#0" expanded="true" />
-            <element signature="e#755#756#0" expanded="true" />
-            <element signature="e#806#807#0" expanded="true" />
-            <element signature="e#842#843#0" expanded="true" />
-            <element signature="e#894#895#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/最长连续序列.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="19" column="22" lean-forward="true" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gangbin/设计模式/建造者模式.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/最长上升子序列.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/三个递增子序列.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/最大整数.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/最大数.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="22" column="10" lean-forward="true" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/划分字母区间.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="30" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/俄罗斯套娃信封.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="570">
           <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/最长的斐波那契数列.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -1594,43 +1484,337 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="23" column="2" selection-start-line="23" selection-start-column="2" selection-end-line="26" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/求众数2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="32" column="25" lean-forward="true" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="589">
+          <caret line="32" column="25" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/拆分单词.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5">
+        <state relative-caret-position="399">
           <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/搜索单词.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="42" column="33" lean-forward="true" selection-start-line="42" selection-start-column="33" selection-end-line="42" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/最长公共子数组.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="21" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/二叉树最大路径和.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/唯一最短的单词缩写.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/从字符串得到二叉树.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="51" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/和为k的最长子数组.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/乘积小于100的子数组.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/实现一个有限容量阻塞队列.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="41" column="27" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/判断IP地址.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/最佳观光组合.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="18" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/最低票价.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-33">
+          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/最长的斐波那契数列.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-52">
+          <caret line="38" column="3" lean-forward="true" selection-start-line="38" selection-start-column="3" selection-end-line="56" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/链表相加.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="38" column="9" lean-forward="true" selection-start-line="28" selection-start-column="7" selection-end-line="38" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/链表相加升级.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-565">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="54" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gangbin/Company/小年糕/Main2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-219">
+          <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="44" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gangbin/Company/小年糕/Main3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="20" column="17" lean-forward="true" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gangbin/Company/小年糕/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="9" selection-start-line="9" selection-end-line="23" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/哲学家吃饭.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/复原IP地址.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-349">
+          <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="50" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/唯一最短的单词缩写.java">
+    <entry file="file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/两个字符串删除.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="30" column="25" lean-forward="true" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+        <state relative-caret-position="475">
+          <caret line="25" column="27" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/搜索单词.java">
+    <entry file="file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/移动石子.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="23" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/移动石子2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/最长的山脉.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="32" column="40" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/最长的1的序列.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1273">
+          <caret line="67" column="5" selection-start-line="47" selection-start-column="4" selection-end-line="67" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/香槟酒.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
-          <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+          <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/倒水的问题.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/最长等差数列.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="988">
+          <caret line="53" column="5" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/字符串查找和替换.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/二叉树右视图.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/排序数组.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2337">
+          <caret line="125" column="25" selection-start-line="125" selection-start-column="25" selection-end-line="125" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/数组变换.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/三路快排.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1007">
+          <caret line="53" column="25" selection-start-line="53" selection-start-column="25" selection-end-line="53" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gangbin/Others/堆排序.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/softwares/JavaJdk/src.zip!/java/util/Comparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="149" column="28" lean-forward="true" selection-start-line="149" selection-start-column="28" selection-end-line="149" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/第N个数字.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/softwares/JavaJdk/src.zip!/java/util/PriorityQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="593" column="24" selection-start-line="593" selection-start-column="24" selection-end-line="593" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/视频剪辑.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="28" column="5" selection-start-line="10" selection-start-column="4" selection-end-line="28" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/环绕字符串中的子串.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/交换字符.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/移除括号.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/优美子数组.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="478">
+          <caret line="38" column="16" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/排行榜.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="30" column="14" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/数组中出现两次的数.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="45" column="32" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gangbin/leetcode题目/数组分为三个相等部分.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-99">
+          <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="34" selection-end-column="5" />
         </state>
       </provider>
     </entry>
